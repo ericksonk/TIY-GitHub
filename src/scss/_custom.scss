@@ -10,8 +10,7 @@ body {
 
     .smallColumn {
       width: 20%;
-      height: 500px;
-      background: red;
+      height: 600px;
       padding: 0 10px 0 10px;
       float: left;
 
@@ -37,6 +36,12 @@ body {
           padding: 0 0 5px 0;
           border-bottom: solid black 1px;
           line-height: .5px;
+        }
+        ul {
+          list-style: none;
+          overflow: hidden;
+          padding: 5px 0 10px 0;
+          border-bottom: solid black 1px;
         }
     }
 
