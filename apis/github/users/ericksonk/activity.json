@@ -1,0 +1,3163 @@
+[
+  {
+    "id": "3209356333",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 43317539,
+      "name": "ericksonk/TIY-GitHub",
+      "url": "https://api.github.com/repos/ericksonk/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--my-little-profile",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:53:50Z"
+  },
+  {
+    "id": "3209318740",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 43317539,
+      "name": "ericksonk/TIY-GitHub",
+      "url": "https://api.github.com/repos/ericksonk/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "release--0.0.2",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:43:25Z"
+  },
+  {
+    "id": "3209296998",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 43317539,
+      "name": "ericksonk/TIY-GitHub",
+      "url": "https://api.github.com/repos/ericksonk/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "release--0.0.1",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:37:15Z"
+  },
+  {
+    "id": "3209296935",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 43317539,
+      "name": "ericksonk/TIY-GitHub",
+      "url": "https://api.github.com/repos/ericksonk/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--fetch-data",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:37:14Z"
+  },
+  {
+    "id": "3209296851",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 43317539,
+      "name": "ericksonk/TIY-GitHub",
+      "url": "https://api.github.com/repos/ericksonk/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--profile-details",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:37:13Z"
+  },
+  {
+    "id": "3209296776",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 43317539,
+      "name": "ericksonk/TIY-GitHub",
+      "url": "https://api.github.com/repos/ericksonk/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--basic-layout",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:37:12Z"
+  },
+  {
+    "id": "3209281295",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 41059030,
+      "name": "TIY-Durham/2015-FALL-FEE",
+      "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/395",
+        "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/395/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/395/comments",
+        "events_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/395/events",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/395",
+        "id": 109858725,
+        "number": 395,
+        "title": "20 -- Kristine Erickson",
+        "user": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-10-05T18:36:16Z",
+        "updated_at": "2015-10-05T19:32:55Z",
+        "closed_at": null,
+        "body": "* **Yak-Shaving**\r\n  * [x] Create a _WIP Issue_ with links to:\r\n    * [ ] your PR in `USERNAME.github.io`\r\n      * [ ] from `journal-week-5` into `master`\r\n      * [x] from `release--0.0.0` into `master`\r\n    * [ ] your PR in `TIY-GitHub` from `release--0.0.2` into `master`\r\n    * [ ] your PRs in `TIY-GitHub` from `feature--*` (multiple) into `release--0.0.2`\r\n  * [x] **MERGE YOUR OPEN PRs!**\r\n    * [x] in `USERNAME.github.io` from `journal-week-4` into `master`\r\n    * [x] in `TIY-Chessboard`\r\n    * [x] in `TIY-GitHub` (from last week)\r\n  * [ ] Create the following _WIP Branch_ in:\r\n    * `USERNAME.github.io`\r\n      * [x] named `journal-week-5` from `master`\r\n      * [x] named `release--0.0.0` from `master`\r\n    * `TIY-GitHub`\r\n      * [ ] named `release--0.0.2` from `master`\r\n      * [ ] named `feature--profile-placeholders` from `release--0.0.2`\r\n      * [ ] named `feature--FILL_ME_IN` from `release--0.0.2`\r\n  * [ ] Create or update the following _WIP Files_ in:\r\n    * [ ] `USERNAME.github.io:journal-week-5`\r\n      * [ ] `journal-week-5.md` or something creative\r\n      * [ ] `tutorial-week-5.md` or something creative\r\n      * [ ] `resource-week-5.md` or something creative\r\n    * [x] `USERNAME.github.io:release--0.0.0`\r\n      * [x] `.gitignore` -- with the following patterns:\r\n        * [x] `/dist`\r\n        * [x] `/node_modules`\r\n        * [x] `/bower_components`\r\n        * [x] `css`\r\n      * [x] `package.json` -- and `npm install --link --save-dev`\r\n        * [x] `bower`\r\n        * [x] `browser-sync`\r\n        * [x] `gulp`\r\n        * [x] `node-sass`\r\n      * [x] `specs/` -- for **BEAST MODE**\r\n      * [x] `src/` -- from `yo h5bp`\r\n        * [x] `js/`\r\n          * [x] `main.js`\r\n          * [ ] nothing else!\r\n        * [x] `scss/`\r\n          * [x] `_common.scss`\r\n          * [x] `_desktop.scss`\r\n          * [x] `_mobile.scss`\r\n          * [x] `_tablet.scss`\r\n          * [x] `main.scss` -- with `@import` links to above\r\n        * [x] `css/` -- DELETED!\r\n        * [x] `index.html`\r\n    * [ ] `TIY-GitHub:release--0.0.2`\r\n      * [ ] `apis/github/users/`\r\n        * [ ] `USERNAME.json` -- for _your_ profile data\r\n        * [ ] `USERNAME/`\r\n          * [ ] `repos.json` -- for _your_ repository data\r\n          * [ ] `activity.json` -- for _your_ public events\r\n      * [ ] `src/`\r\n        * [ ] `scss/_custom.scss` -- to clean up your (S)CSS\r\n        * [ ] `js/main.js` -- in case you need to catch up on `jQuery.ajax`\r\n        * [ ] `index.html`\r\n* **Journal, Week 5**\r\n  * [ ] Resource Journal _Draft_\r\n  * [ ] Reflective Journal _Outline_\r\n  * [ ] Tutorial _Outline_\r\n* **Reading APIs**\r\n  * [ ] All caught up!\r\n* **GitHub Revolution** -- Now with MORE CHECKBOXES!\r\n  * [ ] `feature--my-little-profile`\r\n    * [ ] `USERNAME.json`\r\n    * [ ] `USERNAME/repos.json`\r\n    * [ ] `USERNAME/activity.json`\r\n  * [ ] `feature--profile-placeholders`\r\n    * [ ] Please state your `name`...\r\n    * [ ] Would you like to `login`?\r\n    * [ ] Octocat is a `company` man, er... monster.\r\n    * [ ] Last known `location`?\r\n    * [ ] You've got `email`!\r\n    * [ ] Don't forget the missing `link`...!\r\n    * [ ] Wait, gimme a `moment` to figure this out...\r\n  * [ ] `feature--main-column-tabs`\r\n    * [ ] Seems like this is `<nav>`-igation...\r\n    * [ ] Don't just _use_ the Octicons, _become_ the Octicons...\r\n    * [ ] Is that _really_ a `<button>`?\r\n    * [ ] To start, just _make_ one `.active`...\r\n    * [ ] Don't settle for less than interactive!\r\n    * [ ] Every `.tabs` needs `.panels`...\r\n  * [ ] `feature--repo-list-layout`\r\n    * [ ] If I _wanted_ to `Search`...\r\n    * [ ] ...or filter!\r\n    * [ ] This cat sure likes nursery rhymes...\r\n    * [ ] ...about CSS, apparently.\r\n    * [ ] Stars and forks forever!\r\n    * [ ] How does he/she/it find time for these updates?\r\n    * [ ] Don't tell me you forgot all the links!\r\n    * [ ] And the World says \"Hello\" to you, too!\r\n    * [ ] 3 Examples is enough to derive a pattern from...\r\n  * **BEAST MODE** `feature--repo-list-placeholders`\r\n    * What do \"Spoon-Knife\" and \"Hello-World\" have in common?\r\n    * Don't tell me you forgot the links again!\r\n    * That `description` is not very descriptive...\r\n    * She said we don't speak the same `language`.\r\n    * What do you call a vampire who practice astrology? `stargazer_count`\r\n    * It's like ten thousand `forks` when all you need is a `\"Spoon-Knife\"`"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/comments/145643347",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/395#issuecomment-145643347",
+        "issue_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/395",
+        "id": 145643347,
+        "user": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-10-05T19:32:54Z",
+        "updated_at": "2015-10-05T19:32:54Z",
+        "body": "ericksonk09 `release.0.0.0` PR:\r\nhttps://github.com/ericksonk/ericksonk.github.io/pull/15"
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:32:55Z",
+    "org": {
+      "id": 13875036,
+      "login": "TIY-Durham",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TIY-Durham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13875036?"
+    }
+  },
+  {
+    "id": "3209278950",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 41693945,
+      "name": "ericksonk/ericksonk.github.io",
+      "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 15,
+      "pull_request": {
+        "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/15",
+        "id": 46823068,
+        "html_url": "https://github.com/ericksonk/ericksonk.github.io/pull/15",
+        "diff_url": "https://github.com/ericksonk/ericksonk.github.io/pull/15.diff",
+        "patch_url": "https://github.com/ericksonk/ericksonk.github.io/pull/15.patch",
+        "issue_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/15",
+        "number": 15,
+        "state": "open",
+        "locked": false,
+        "title": "Release  0.0.0",
+        "user": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-10-05T19:32:13Z",
+        "updated_at": "2015-10-05T19:32:13Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/15/commits",
+        "review_comments_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/15/comments",
+        "review_comment_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/15/comments",
+        "statuses_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/statuses/f528f84729600e141bc2a63ed80df3c1b21a178b",
+        "head": {
+          "label": "ericksonk:release--0.0.0",
+          "ref": "release--0.0.0",
+          "sha": "f528f84729600e141bc2a63ed80df3c1b21a178b",
+          "user": {
+            "login": "ericksonk",
+            "id": 14016182,
+            "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericksonk",
+            "html_url": "https://github.com/ericksonk",
+            "followers_url": "https://api.github.com/users/ericksonk/followers",
+            "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+            "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+            "repos_url": "https://api.github.com/users/ericksonk/repos",
+            "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693945,
+            "name": "ericksonk.github.io",
+            "full_name": "ericksonk/ericksonk.github.io",
+            "owner": {
+              "login": "ericksonk",
+              "id": 14016182,
+              "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/ericksonk",
+              "html_url": "https://github.com/ericksonk",
+              "followers_url": "https://api.github.com/users/ericksonk/followers",
+              "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+              "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+              "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+              "repos_url": "https://api.github.com/users/ericksonk/repos",
+              "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/ericksonk/ericksonk.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io",
+            "forks_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/forks",
+            "keys_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/events",
+            "assignees_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/merges",
+            "archive_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:48:10Z",
+            "updated_at": "2015-08-31T19:10:40Z",
+            "pushed_at": "2015-10-05T19:32:13Z",
+            "git_url": "git://github.com/ericksonk/ericksonk.github.io.git",
+            "ssh_url": "git@github.com:ericksonk/ericksonk.github.io.git",
+            "clone_url": "https://github.com/ericksonk/ericksonk.github.io.git",
+            "svn_url": "https://github.com/ericksonk/ericksonk.github.io",
+            "homepage": null,
+            "size": 296,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "ericksonk:master",
+          "ref": "master",
+          "sha": "a31796099807ad32a20ae04a43816ec846df9962",
+          "user": {
+            "login": "ericksonk",
+            "id": 14016182,
+            "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericksonk",
+            "html_url": "https://github.com/ericksonk",
+            "followers_url": "https://api.github.com/users/ericksonk/followers",
+            "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+            "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+            "repos_url": "https://api.github.com/users/ericksonk/repos",
+            "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693945,
+            "name": "ericksonk.github.io",
+            "full_name": "ericksonk/ericksonk.github.io",
+            "owner": {
+              "login": "ericksonk",
+              "id": 14016182,
+              "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/ericksonk",
+              "html_url": "https://github.com/ericksonk",
+              "followers_url": "https://api.github.com/users/ericksonk/followers",
+              "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+              "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+              "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+              "repos_url": "https://api.github.com/users/ericksonk/repos",
+              "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/ericksonk/ericksonk.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io",
+            "forks_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/forks",
+            "keys_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/events",
+            "assignees_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/merges",
+            "archive_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:48:10Z",
+            "updated_at": "2015-08-31T19:10:40Z",
+            "pushed_at": "2015-10-05T19:32:13Z",
+            "git_url": "git://github.com/ericksonk/ericksonk.github.io.git",
+            "ssh_url": "git@github.com:ericksonk/ericksonk.github.io.git",
+            "clone_url": "https://github.com/ericksonk/ericksonk.github.io.git",
+            "svn_url": "https://github.com/ericksonk/ericksonk.github.io",
+            "homepage": null,
+            "size": 296,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/15"
+          },
+          "html": {
+            "href": "https://github.com/ericksonk/ericksonk.github.io/pull/15"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/15"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/15/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/15/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/15/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/statuses/f528f84729600e141bc2a63ed80df3c1b21a178b"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 2,
+        "additions": 1927,
+        "deletions": 0,
+        "changed_files": 27
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:32:13Z"
+  },
+  {
+    "id": "3209255328",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 41693945,
+      "name": "ericksonk/ericksonk.github.io",
+      "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io"
+    },
+    "payload": {
+      "push_id": 816019722,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.0",
+      "head": "f528f84729600e141bc2a63ed80df3c1b21a178b",
+      "before": "481f510eee74f513c992d4b0cdd0b0b40e9a9567",
+      "commits": [
+        {
+          "sha": "f528f84729600e141bc2a63ed80df3c1b21a178b",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "saved dev dependencies in package.json and created src folder",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/commits/f528f84729600e141bc2a63ed80df3c1b21a178b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:25:36Z"
+  },
+  {
+    "id": "3209153558",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 41693945,
+      "name": "ericksonk/ericksonk.github.io",
+      "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io"
+    },
+    "payload": {
+      "push_id": 815982890,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.0",
+      "head": "481f510eee74f513c992d4b0cdd0b0b40e9a9567",
+      "before": "a31796099807ad32a20ae04a43816ec846df9962",
+      "commits": [
+        {
+          "sha": "481f510eee74f513c992d4b0cdd0b0b40e9a9567",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "set up .gitignore file",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/commits/481f510eee74f513c992d4b0cdd0b0b40e9a9567"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:56:59Z"
+  },
+  {
+    "id": "3209084167",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 41693945,
+      "name": "ericksonk/ericksonk.github.io",
+      "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io"
+    },
+    "payload": {
+      "ref": "release--0.0.0",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:38:08Z"
+  },
+  {
+    "id": "3209082571",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 41693945,
+      "name": "ericksonk/ericksonk.github.io",
+      "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io"
+    },
+    "payload": {
+      "ref": "journal-week-5",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:37:40Z"
+  },
+  {
+    "id": "3209080868",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 41693945,
+      "name": "ericksonk/ericksonk.github.io",
+      "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io"
+    },
+    "payload": {
+      "ref": "tutorial-week4",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:37:11Z"
+  },
+  {
+    "id": "3209077644",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 41059030,
+      "name": "TIY-Durham/2015-FALL-FEE",
+      "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/395",
+        "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/395/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/395/comments",
+        "events_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/395/events",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/395",
+        "id": 109858725,
+        "number": 395,
+        "title": "20 -- Kristine Erickson",
+        "user": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-10-05T18:36:16Z",
+        "updated_at": "2015-10-05T18:36:16Z",
+        "closed_at": null,
+        "body": "* **Yak-Shaving**\r\n  * [ ] Create a _WIP Issue_ with links to:\r\n    * [ ] your PR in `USERNAME.github.io`\r\n      * [ ] from `journal-week-5` into `master`\r\n      * [ ] from `release--0.0.0` into `master`\r\n    * [ ] your PR in `TIY-GitHub` from `release--0.0.2` into `master`\r\n    * [ ] your PRs in `TIY-GitHub` from `feature--*` (multiple) into `release--0.0.2`\r\n  * [ ] **MERGE YOUR OPEN PRs!**\r\n    * [ ] in `USERNAME.github.io` from `journal-week-4` into `master`\r\n    * [ ] in `TIY-Chessboard`\r\n    * [ ] in `TIY-GitHub` (from last week)\r\n  * [ ] Create the following _WIP Branch_ in:\r\n    * `USERNAME.github.io`\r\n      * [ ] named `journal-week-5` from `master`\r\n      * [ ] named `release--0.0.0` from `master`\r\n    * `TIY-GitHub`\r\n      * [ ] named `release--0.0.2` from `master`\r\n      * [ ] named `feature--profile-placeholders` from `release--0.0.2`\r\n      * [ ] named `feature--FILL_ME_IN` from `release--0.0.2`\r\n  * [ ] Create or update the following _WIP Files_ in:\r\n    * [ ] `USERNAME.github.io:journal-week-5`\r\n      * [ ] `journal-week-5.md` or something creative\r\n      * [ ] `tutorial-week-5.md` or something creative\r\n      * [ ] `resource-week-5.md` or something creative\r\n    * [ ] `USERNAME.github.io:release--0.0.0`\r\n      * [ ] `.gitignore` -- with the following patterns:\r\n        * [ ] `/dist`\r\n        * [ ] `/node_modules`\r\n        * [ ] `/bower_components`\r\n        * [ ] `css`\r\n      * [ ] `package.json` -- and `npm install --link --save-dev`\r\n        * [ ] `bower`\r\n        * [ ] `browser-sync`\r\n        * [ ] `gulp`\r\n        * [ ] `node-sass`\r\n      * [ ] `specs/` -- for **BEAST MODE**\r\n      * [ ] `src/` -- from `yo h5bp`\r\n        * [ ] `js/`\r\n          * [ ] `main.js`\r\n          * [ ] nothing else!\r\n        * [ ] `scss/`\r\n          * [ ] `_common.scss`\r\n          * [ ] `_desktop.scss`\r\n          * [ ] `_mobile.scss`\r\n          * [ ] `_tablet.scss`\r\n          * [ ] `main.scss` -- with `@import` links to above\r\n        * [ ] `css/` -- DELETED!\r\n        * [ ] `index.html`\r\n    * [ ] `TIY-GitHub:release--0.0.2`\r\n      * [ ] `apis/github/users/`\r\n        * [ ] `USERNAME.json` -- for _your_ profile data\r\n        * [ ] `USERNAME/`\r\n          * [ ] `repos.json` -- for _your_ repository data\r\n          * [ ] `activity.json` -- for _your_ public events\r\n      * [ ] `src/`\r\n        * [ ] `scss/_custom.scss` -- to clean up your (S)CSS\r\n        * [ ] `js/main.js` -- in case you need to catch up on `jQuery.ajax`\r\n        * [ ] `index.html`\r\n* **Journal, Week 5**\r\n  * [ ] Resource Journal _Draft_\r\n  * [ ] Reflective Journal _Outline_\r\n  * [ ] Tutorial _Outline_\r\n* **Reading APIs**\r\n  * [ ] All caught up!\r\n* **GitHub Revolution** -- Now with MORE CHECKBOXES!\r\n  * [ ] `feature--my-little-profile`\r\n    * [ ] `USERNAME.json`\r\n    * [ ] `USERNAME/repos.json`\r\n    * [ ] `USERNAME/activity.json`\r\n  * [ ] `feature--profile-placeholders`\r\n    * [ ] Please state your `name`...\r\n    * [ ] Would you like to `login`?\r\n    * [ ] Octocat is a `company` man, er... monster.\r\n    * [ ] Last known `location`?\r\n    * [ ] You've got `email`!\r\n    * [ ] Don't forget the missing `link`...!\r\n    * [ ] Wait, gimme a `moment` to figure this out...\r\n  * [ ] `feature--main-column-tabs`\r\n    * [ ] Seems like this is `<nav>`-igation...\r\n    * [ ] Don't just _use_ the Octicons, _become_ the Octicons...\r\n    * [ ] Is that _really_ a `<button>`?\r\n    * [ ] To start, just _make_ one `.active`...\r\n    * [ ] Don't settle for less than interactive!\r\n    * [ ] Every `.tabs` needs `.panels`...\r\n  * [ ] `feature--repo-list-layout`\r\n    * [ ] If I _wanted_ to `Search`...\r\n    * [ ] ...or filter!\r\n    * [ ] This cat sure likes nursery rhymes...\r\n    * [ ] ...about CSS, apparently.\r\n    * [ ] Stars and forks forever!\r\n    * [ ] How does he/she/it find time for these updates?\r\n    * [ ] Don't tell me you forgot all the links!\r\n    * [ ] And the World says \"Hello\" to you, too!\r\n    * [ ] 3 Examples is enough to derive a pattern from...\r\n  * **BEAST MODE** `feature--repo-list-placeholders`\r\n    * What do \"Spoon-Knife\" and \"Hello-World\" have in common?\r\n    * Don't tell me you forgot the links again!\r\n    * That `description` is not very descriptive...\r\n    * She said we don't speak the same `language`.\r\n    * What do you call a vampire who practice astrology? `stargazer_count`\r\n    * It's like ten thousand `forks` when all you need is a `\"Spoon-Knife\"`"
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:36:16Z",
+    "org": {
+      "id": 13875036,
+      "login": "TIY-Durham",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TIY-Durham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13875036?"
+    }
+  },
+  {
+    "id": "3209065977",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 43317539,
+      "name": "ericksonk/TIY-GitHub",
+      "url": "https://api.github.com/repos/ericksonk/TIY-GitHub"
+    },
+    "payload": {
+      "push_id": 815951972,
+      "size": 11,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "be2b962e94dbb30ac1b0561eb7dded2d5e5d26a8",
+      "before": "b1acfe03807784de8dfee2b8fd543af7d628e296",
+      "commits": [
+        {
+          "sha": "2e46093784973a3f34a282239db732059baf9ac9",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "html outline",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-GitHub/commits/2e46093784973a3f34a282239db732059baf9ac9"
+        },
+        {
+          "sha": "99bde231b07544e146c00148a0cac00122479f65",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "sass- 2 columns centered",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-GitHub/commits/99bde231b07544e146c00148a0cac00122479f65"
+        },
+        {
+          "sha": "c6a21c7a981fb3311eea84edba52d35b6fdf8b21",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "Merge pull request #2 from ericksonk/feature--basic-layout\n\nFeature  basic layout",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-GitHub/commits/c6a21c7a981fb3311eea84edba52d35b6fdf8b21"
+        },
+        {
+          "sha": "db67b1ce8ec9a585735d0124f8416e078b9fc0a2",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "I been skitchin",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-GitHub/commits/db67b1ce8ec9a585735d0124f8416e078b9fc0a2"
+        },
+        {
+          "sha": "af9cb9b1459d02e550eeeb9ce5efcf897d01b9a5",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "image, name and user name",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-GitHub/commits/af9cb9b1459d02e550eeeb9ce5efcf897d01b9a5"
+        },
+        {
+          "sha": "04d051c51b1aaa0c233e66d7801fe717e936b677",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "almost done w/ detail column but need to move onto next assignment",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-GitHub/commits/04d051c51b1aaa0c233e66d7801fe717e936b677"
+        },
+        {
+          "sha": "47c048fd7501c9851b6b29ab89bac37900254895",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "Merge pull request #4 from ericksonk/feature--profile-details\n\nProfile Details",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-GitHub/commits/47c048fd7501c9851b6b29ab89bac37900254895"
+        },
+        {
+          "sha": "44f947b0c6bfe061b1a4548ecca8ab74cf7b29a6",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "logged octocat.json data to console",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-GitHub/commits/44f947b0c6bfe061b1a4548ecca8ab74cf7b29a6"
+        },
+        {
+          "sha": "60be91c049bacc9bcd397b11e820bfe05a6c8237",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "Merge pull request #5 from ericksonk/feature--fetch-data\n\nFetch Data",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-GitHub/commits/60be91c049bacc9bcd397b11e820bfe05a6c8237"
+        },
+        {
+          "sha": "db9b29d60351cf24616c0a1e10eb1a016d79fa95",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "updated version number on package.json",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-GitHub/commits/db9b29d60351cf24616c0a1e10eb1a016d79fa95"
+        },
+        {
+          "sha": "be2b962e94dbb30ac1b0561eb7dded2d5e5d26a8",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "Merge pull request #3 from ericksonk/release--0.0.1\n\nRelease  0.0.1",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ericksonk/TIY-GitHub/commits/be2b962e94dbb30ac1b0561eb7dded2d5e5d26a8"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:33:07Z"
+  },
+  {
+    "id": "3209065975",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 43317539,
+      "name": "ericksonk/TIY-GitHub",
+      "url": "https://api.github.com/repos/ericksonk/TIY-GitHub"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 3,
+      "pull_request": {
+        "url": "https://api.github.com/repos/ericksonk/TIY-GitHub/pulls/3",
+        "id": 46328465,
+        "html_url": "https://github.com/ericksonk/TIY-GitHub/pull/3",
+        "diff_url": "https://github.com/ericksonk/TIY-GitHub/pull/3.diff",
+        "patch_url": "https://github.com/ericksonk/TIY-GitHub/pull/3.patch",
+        "issue_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/issues/3",
+        "number": 3,
+        "state": "closed",
+        "locked": false,
+        "title": "Release  0.0.1",
+        "user": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-09-29T20:36:18Z",
+        "updated_at": "2015-10-05T18:33:05Z",
+        "closed_at": "2015-10-05T18:33:04Z",
+        "merged_at": "2015-10-05T18:33:04Z",
+        "merge_commit_sha": "0c644612582de86bad4f4ae73c80d06b6d0fd967",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/pulls/3/commits",
+        "review_comments_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/pulls/3/comments",
+        "review_comment_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/issues/3/comments",
+        "statuses_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/statuses/db9b29d60351cf24616c0a1e10eb1a016d79fa95",
+        "head": {
+          "label": "ericksonk:release--0.0.1",
+          "ref": "release--0.0.1",
+          "sha": "db9b29d60351cf24616c0a1e10eb1a016d79fa95",
+          "user": {
+            "login": "ericksonk",
+            "id": 14016182,
+            "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericksonk",
+            "html_url": "https://github.com/ericksonk",
+            "followers_url": "https://api.github.com/users/ericksonk/followers",
+            "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+            "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+            "repos_url": "https://api.github.com/users/ericksonk/repos",
+            "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 43317539,
+            "name": "TIY-GitHub",
+            "full_name": "ericksonk/TIY-GitHub",
+            "owner": {
+              "login": "ericksonk",
+              "id": 14016182,
+              "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/ericksonk",
+              "html_url": "https://github.com/ericksonk",
+              "followers_url": "https://api.github.com/users/ericksonk/followers",
+              "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+              "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+              "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+              "repos_url": "https://api.github.com/users/ericksonk/repos",
+              "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/ericksonk/TIY-GitHub",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/ericksonk/TIY-GitHub",
+            "forks_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/forks",
+            "keys_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/teams",
+            "hooks_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/hooks",
+            "issue_events_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/events",
+            "assignees_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/tags",
+            "blobs_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/languages",
+            "stargazers_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/stargazers",
+            "contributors_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/contributors",
+            "subscribers_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/subscribers",
+            "subscription_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/subscription",
+            "commits_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/merges",
+            "archive_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/downloads",
+            "issues_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/labels{/name}",
+            "releases_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/releases{/id}",
+            "created_at": "2015-09-28T18:03:23Z",
+            "updated_at": "2015-09-29T17:41:06Z",
+            "pushed_at": "2015-10-05T18:33:05Z",
+            "git_url": "git://github.com/ericksonk/TIY-GitHub.git",
+            "ssh_url": "git@github.com:ericksonk/TIY-GitHub.git",
+            "clone_url": "https://github.com/ericksonk/TIY-GitHub.git",
+            "svn_url": "https://github.com/ericksonk/TIY-GitHub",
+            "homepage": null,
+            "size": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "ericksonk:master",
+          "ref": "master",
+          "sha": "b1acfe03807784de8dfee2b8fd543af7d628e296",
+          "user": {
+            "login": "ericksonk",
+            "id": 14016182,
+            "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericksonk",
+            "html_url": "https://github.com/ericksonk",
+            "followers_url": "https://api.github.com/users/ericksonk/followers",
+            "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+            "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+            "repos_url": "https://api.github.com/users/ericksonk/repos",
+            "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 43317539,
+            "name": "TIY-GitHub",
+            "full_name": "ericksonk/TIY-GitHub",
+            "owner": {
+              "login": "ericksonk",
+              "id": 14016182,
+              "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/ericksonk",
+              "html_url": "https://github.com/ericksonk",
+              "followers_url": "https://api.github.com/users/ericksonk/followers",
+              "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+              "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+              "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+              "repos_url": "https://api.github.com/users/ericksonk/repos",
+              "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/ericksonk/TIY-GitHub",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/ericksonk/TIY-GitHub",
+            "forks_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/forks",
+            "keys_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/teams",
+            "hooks_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/hooks",
+            "issue_events_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/events",
+            "assignees_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/tags",
+            "blobs_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/languages",
+            "stargazers_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/stargazers",
+            "contributors_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/contributors",
+            "subscribers_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/subscribers",
+            "subscription_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/subscription",
+            "commits_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/merges",
+            "archive_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/downloads",
+            "issues_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/labels{/name}",
+            "releases_url": "https://api.github.com/repos/ericksonk/TIY-GitHub/releases{/id}",
+            "created_at": "2015-09-28T18:03:23Z",
+            "updated_at": "2015-09-29T17:41:06Z",
+            "pushed_at": "2015-10-05T18:33:05Z",
+            "git_url": "git://github.com/ericksonk/TIY-GitHub.git",
+            "ssh_url": "git@github.com:ericksonk/TIY-GitHub.git",
+            "clone_url": "https://github.com/ericksonk/TIY-GitHub.git",
+            "svn_url": "https://github.com/ericksonk/TIY-GitHub",
+            "homepage": null,
+            "size": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/ericksonk/TIY-GitHub/pulls/3"
+          },
+          "html": {
+            "href": "https://github.com/ericksonk/TIY-GitHub/pull/3"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/ericksonk/TIY-GitHub/issues/3"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/ericksonk/TIY-GitHub/issues/3/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/ericksonk/TIY-GitHub/pulls/3/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/ericksonk/TIY-GitHub/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/ericksonk/TIY-GitHub/pulls/3/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/ericksonk/TIY-GitHub/statuses/db9b29d60351cf24616c0a1e10eb1a016d79fa95"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 10,
+        "additions": 1168,
+        "deletions": 11,
+        "changed_files": 15
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:33:07Z"
+  },
+  {
+    "id": "3209064815",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 41693945,
+      "name": "ericksonk/ericksonk.github.io",
+      "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io"
+    },
+    "payload": {
+      "push_id": 815951505,
+      "size": 3,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "a31796099807ad32a20ae04a43816ec846df9962",
+      "before": "51187123989c5bbb18b861ed4468abad1d1e9f9e",
+      "commits": [
+        {
+          "sha": "0f23f8d2311769966952bae5c759a7eb04dc4f51",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "editing file",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/commits/0f23f8d2311769966952bae5c759a7eb04dc4f51"
+        },
+        {
+          "sha": "69d8bca542664428b581e8e4b0c9294d181c2cda",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "Tutorial final draft",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/commits/69d8bca542664428b581e8e4b0c9294d181c2cda"
+        },
+        {
+          "sha": "a31796099807ad32a20ae04a43816ec846df9962",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "Merge pull request #14 from ericksonk/tutorial-week4\n\nTutorial Week 4",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/commits/a31796099807ad32a20ae04a43816ec846df9962"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:32:45Z"
+  },
+  {
+    "id": "3209064713",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 41693945,
+      "name": "ericksonk/ericksonk.github.io",
+      "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 14,
+      "pull_request": {
+        "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/14",
+        "id": 46718131,
+        "html_url": "https://github.com/ericksonk/ericksonk.github.io/pull/14",
+        "diff_url": "https://github.com/ericksonk/ericksonk.github.io/pull/14.diff",
+        "patch_url": "https://github.com/ericksonk/ericksonk.github.io/pull/14.patch",
+        "issue_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/14",
+        "number": 14,
+        "state": "closed",
+        "locked": false,
+        "title": "Tutorial Week 4",
+        "user": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-10-04T03:05:46Z",
+        "updated_at": "2015-10-05T18:32:43Z",
+        "closed_at": "2015-10-05T18:32:43Z",
+        "merged_at": "2015-10-05T18:32:43Z",
+        "merge_commit_sha": "c934ea1062aa8f5067ccdaed9dc58316b5e5d4cb",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/14/commits",
+        "review_comments_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/14/comments",
+        "review_comment_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/14/comments",
+        "statuses_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/statuses/69d8bca542664428b581e8e4b0c9294d181c2cda",
+        "head": {
+          "label": "ericksonk:tutorial-week4",
+          "ref": "tutorial-week4",
+          "sha": "69d8bca542664428b581e8e4b0c9294d181c2cda",
+          "user": {
+            "login": "ericksonk",
+            "id": 14016182,
+            "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericksonk",
+            "html_url": "https://github.com/ericksonk",
+            "followers_url": "https://api.github.com/users/ericksonk/followers",
+            "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+            "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+            "repos_url": "https://api.github.com/users/ericksonk/repos",
+            "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693945,
+            "name": "ericksonk.github.io",
+            "full_name": "ericksonk/ericksonk.github.io",
+            "owner": {
+              "login": "ericksonk",
+              "id": 14016182,
+              "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/ericksonk",
+              "html_url": "https://github.com/ericksonk",
+              "followers_url": "https://api.github.com/users/ericksonk/followers",
+              "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+              "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+              "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+              "repos_url": "https://api.github.com/users/ericksonk/repos",
+              "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/ericksonk/ericksonk.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io",
+            "forks_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/forks",
+            "keys_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/events",
+            "assignees_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/merges",
+            "archive_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:48:10Z",
+            "updated_at": "2015-08-31T19:10:40Z",
+            "pushed_at": "2015-10-05T18:32:43Z",
+            "git_url": "git://github.com/ericksonk/ericksonk.github.io.git",
+            "ssh_url": "git@github.com:ericksonk/ericksonk.github.io.git",
+            "clone_url": "https://github.com/ericksonk/ericksonk.github.io.git",
+            "svn_url": "https://github.com/ericksonk/ericksonk.github.io",
+            "homepage": null,
+            "size": 296,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "ericksonk:master",
+          "ref": "master",
+          "sha": "51187123989c5bbb18b861ed4468abad1d1e9f9e",
+          "user": {
+            "login": "ericksonk",
+            "id": 14016182,
+            "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericksonk",
+            "html_url": "https://github.com/ericksonk",
+            "followers_url": "https://api.github.com/users/ericksonk/followers",
+            "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+            "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+            "repos_url": "https://api.github.com/users/ericksonk/repos",
+            "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693945,
+            "name": "ericksonk.github.io",
+            "full_name": "ericksonk/ericksonk.github.io",
+            "owner": {
+              "login": "ericksonk",
+              "id": 14016182,
+              "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/ericksonk",
+              "html_url": "https://github.com/ericksonk",
+              "followers_url": "https://api.github.com/users/ericksonk/followers",
+              "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+              "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+              "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+              "repos_url": "https://api.github.com/users/ericksonk/repos",
+              "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/ericksonk/ericksonk.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io",
+            "forks_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/forks",
+            "keys_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/events",
+            "assignees_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/merges",
+            "archive_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:48:10Z",
+            "updated_at": "2015-08-31T19:10:40Z",
+            "pushed_at": "2015-10-05T18:32:43Z",
+            "git_url": "git://github.com/ericksonk/ericksonk.github.io.git",
+            "ssh_url": "git@github.com:ericksonk/ericksonk.github.io.git",
+            "clone_url": "https://github.com/ericksonk/ericksonk.github.io.git",
+            "svn_url": "https://github.com/ericksonk/ericksonk.github.io",
+            "homepage": null,
+            "size": 296,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/14"
+          },
+          "html": {
+            "href": "https://github.com/ericksonk/ericksonk.github.io/pull/14"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/14"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/14/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/14/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/14/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/statuses/69d8bca542664428b581e8e4b0c9294d181c2cda"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 2,
+        "review_comments": 0,
+        "commits": 2,
+        "additions": 18,
+        "deletions": 6,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:32:43Z"
+  },
+  {
+    "id": "3209064203",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 42898084,
+      "name": "ericksonk/TIY-Chessboard",
+      "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 815951291,
+      "size": 24,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "c89a044b5861cf3f42b5b28ef783c8c2ff7f5c55",
+      "before": "a7e174ebf2f6b8925c94fb88e10bc8a86e65e565",
+      "commits": [
+        {
+          "sha": "9ef0d8dd5bec0e7686a5c5deada2f5f321e441ea",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "work from class today",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/9ef0d8dd5bec0e7686a5c5deada2f5f321e441ea"
+        },
+        {
+          "sha": "4fe8e5e8610b9f4042c96948c5e191957be2ed0b",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "making index.html better than ever",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/4fe8e5e8610b9f4042c96948c5e191957be2ed0b"
+        },
+        {
+          "sha": "b7b2c76b37a0ce49ba6a360e744510a2c0f2b4d6",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "table almost looking good",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/b7b2c76b37a0ce49ba6a360e744510a2c0f2b4d6"
+        },
+        {
+          "sha": "a32b557a6af922ac5045c5d8a93678a6843290ed",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "index.html ready for action",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/a32b557a6af922ac5045c5d8a93678a6843290ed"
+        },
+        {
+          "sha": "85645af0528efae7810980892f107d5d75e880d0",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "tried to center the pieces, failed",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/85645af0528efae7810980892f107d5d75e880d0"
+        },
+        {
+          "sha": "c7b558abdee72455f57caf51e995b491d2ab0c6b",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "added all moves to",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/c7b558abdee72455f57caf51e995b491d2ab0c6b"
+        },
+        {
+          "sha": "e0e3dd0c866686a92108b6c9c2555596596f4063",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "sup, var current",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/e0e3dd0c866686a92108b6c9c2555596596f4063"
+        },
+        {
+          "sha": "b2fd1ea65f775de23d56c865b84e9c3c6058ea07",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "model advances to next move",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/b2fd1ea65f775de23d56c865b84e9c3c6058ea07"
+        },
+        {
+          "sha": "afc08e2877ac649b11b7bbed8ef285599102fa27",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "woring on previous move function in main.js",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/afc08e2877ac649b11b7bbed8ef285599102fa27"
+        },
+        {
+          "sha": "0c3fd722ce146ab63ef71173cb7df1e11e3644a5",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "previous move is working except that one piece is missing... moving on for now",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/0c3fd722ce146ab63ef71173cb7df1e11e3644a5"
+        },
+        {
+          "sha": "a3d5a194995978a479ae7608a72a37539bd9ac10",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "end button works when its the first button pressed",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/a3d5a194995978a479ae7608a72a37539bd9ac10"
+        },
+        {
+          "sha": "e793c177e84f063ea827d7575b09aee5cca7d41c",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "reset button works",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/e793c177e84f063ea827d7575b09aee5cca7d41c"
+        },
+        {
+          "sha": "db786e610bf86d4823a7e64b6f5a61ee3a133cbe",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "created view-helpers.js and linked in html",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/db786e610bf86d4823a7e64b6f5a61ee3a133cbe"
+        },
+        {
+          "sha": "8c9cab7d31768a95ad76eac1bd6df67ff788d3cb",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "working on view-helper",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/8c9cab7d31768a95ad76eac1bd6df67ff788d3cb"
+        },
+        {
+          "sha": "0bc6234282839ac0b1c861ce02aa486e499877cb",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "added classes to 'td' in view helper, working on getting the pieces to actually move",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/0bc6234282839ac0b1c861ce02aa486e499877cb"
+        },
+        {
+          "sha": "e431dad354e0edb763a0874068f2452ee0acce7d",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "definitely not.",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/e431dad354e0edb763a0874068f2452ee0acce7d"
+        },
+        {
+          "sha": "030096a694b03f1a9542dc744fef7b264e229cb2",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "removes whole row of white pawns instead of just one",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/030096a694b03f1a9542dc744fef7b264e229cb2"
+        },
+        {
+          "sha": "50cb9cd12cd728432485f43c4e943373896a681d",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "'fast-forward' working, game moves to final position",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/50cb9cd12cd728432485f43c4e943373896a681d"
+        },
+        {
+          "sha": "0758f7131479c81ec485a1d12ea725b153916a11",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "trying get loop to move one piece at a time as 'next' button is clicked",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/0758f7131479c81ec485a1d12ea725b153916a11"
+        },
+        {
+          "sha": "38978c57db3c964ef1b3096b29861be0f57571a9",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "'rewind' button working for view",
+          "distinct": false,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/38978c57db3c964ef1b3096b29861be0f57571a9"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:32:34Z"
+  },
+  {
+    "id": "3209064184",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 42898084,
+      "name": "ericksonk/TIY-Chessboard",
+      "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 5,
+      "pull_request": {
+        "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/pulls/5",
+        "id": 46592764,
+        "html_url": "https://github.com/ericksonk/TIY-Chessboard/pull/5",
+        "diff_url": "https://github.com/ericksonk/TIY-Chessboard/pull/5.diff",
+        "patch_url": "https://github.com/ericksonk/TIY-Chessboard/pull/5.patch",
+        "issue_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/issues/5",
+        "number": 5,
+        "state": "closed",
+        "locked": false,
+        "title": "19 -- World War Chess",
+        "user": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-10-02T00:26:51Z",
+        "updated_at": "2015-10-05T18:32:34Z",
+        "closed_at": "2015-10-05T18:32:34Z",
+        "merged_at": "2015-10-05T18:32:34Z",
+        "merge_commit_sha": "8276378d5f0585fd27236ba7f5b2ad94fb4fb85d",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/pulls/5/commits",
+        "review_comments_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/pulls/5/comments",
+        "review_comment_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/issues/5/comments",
+        "statuses_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/statuses/63aa23c30a46ad1d8742cbaf7558edb808767a99",
+        "head": {
+          "label": "ericksonk:19--world-war-chess",
+          "ref": "19--world-war-chess",
+          "sha": "63aa23c30a46ad1d8742cbaf7558edb808767a99",
+          "user": {
+            "login": "ericksonk",
+            "id": 14016182,
+            "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericksonk",
+            "html_url": "https://github.com/ericksonk",
+            "followers_url": "https://api.github.com/users/ericksonk/followers",
+            "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+            "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+            "repos_url": "https://api.github.com/users/ericksonk/repos",
+            "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 42898084,
+            "name": "TIY-Chessboard",
+            "full_name": "ericksonk/TIY-Chessboard",
+            "owner": {
+              "login": "ericksonk",
+              "id": 14016182,
+              "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/ericksonk",
+              "html_url": "https://github.com/ericksonk",
+              "followers_url": "https://api.github.com/users/ericksonk/followers",
+              "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+              "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+              "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+              "repos_url": "https://api.github.com/users/ericksonk/repos",
+              "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/ericksonk/TIY-Chessboard",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard",
+            "forks_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/forks",
+            "keys_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/teams",
+            "hooks_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/hooks",
+            "issue_events_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/events",
+            "assignees_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/tags",
+            "blobs_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/languages",
+            "stargazers_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/stargazers",
+            "contributors_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/contributors",
+            "subscribers_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/subscribers",
+            "subscription_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/subscription",
+            "commits_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/merges",
+            "archive_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/downloads",
+            "issues_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/labels{/name}",
+            "releases_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/releases{/id}",
+            "created_at": "2015-09-21T22:52:11Z",
+            "updated_at": "2015-09-23T18:20:45Z",
+            "pushed_at": "2015-10-05T18:32:34Z",
+            "git_url": "git://github.com/ericksonk/TIY-Chessboard.git",
+            "ssh_url": "git@github.com:ericksonk/TIY-Chessboard.git",
+            "clone_url": "https://github.com/ericksonk/TIY-Chessboard.git",
+            "svn_url": "https://github.com/ericksonk/TIY-Chessboard",
+            "homepage": null,
+            "size": 520,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 1,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "ericksonk:master",
+          "ref": "master",
+          "sha": "a7e174ebf2f6b8925c94fb88e10bc8a86e65e565",
+          "user": {
+            "login": "ericksonk",
+            "id": 14016182,
+            "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericksonk",
+            "html_url": "https://github.com/ericksonk",
+            "followers_url": "https://api.github.com/users/ericksonk/followers",
+            "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+            "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+            "repos_url": "https://api.github.com/users/ericksonk/repos",
+            "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 42898084,
+            "name": "TIY-Chessboard",
+            "full_name": "ericksonk/TIY-Chessboard",
+            "owner": {
+              "login": "ericksonk",
+              "id": 14016182,
+              "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/ericksonk",
+              "html_url": "https://github.com/ericksonk",
+              "followers_url": "https://api.github.com/users/ericksonk/followers",
+              "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+              "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+              "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+              "repos_url": "https://api.github.com/users/ericksonk/repos",
+              "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/ericksonk/TIY-Chessboard",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard",
+            "forks_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/forks",
+            "keys_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/teams",
+            "hooks_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/hooks",
+            "issue_events_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/events",
+            "assignees_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/tags",
+            "blobs_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/languages",
+            "stargazers_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/stargazers",
+            "contributors_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/contributors",
+            "subscribers_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/subscribers",
+            "subscription_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/subscription",
+            "commits_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/merges",
+            "archive_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/downloads",
+            "issues_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/labels{/name}",
+            "releases_url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/releases{/id}",
+            "created_at": "2015-09-21T22:52:11Z",
+            "updated_at": "2015-09-23T18:20:45Z",
+            "pushed_at": "2015-10-05T18:32:34Z",
+            "git_url": "git://github.com/ericksonk/TIY-Chessboard.git",
+            "ssh_url": "git@github.com:ericksonk/TIY-Chessboard.git",
+            "clone_url": "https://github.com/ericksonk/TIY-Chessboard.git",
+            "svn_url": "https://github.com/ericksonk/TIY-Chessboard",
+            "homepage": null,
+            "size": 520,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 1,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/ericksonk/TIY-Chessboard/pulls/5"
+          },
+          "html": {
+            "href": "https://github.com/ericksonk/TIY-Chessboard/pull/5"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/ericksonk/TIY-Chessboard/issues/5"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/ericksonk/TIY-Chessboard/issues/5/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/ericksonk/TIY-Chessboard/pulls/5/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/ericksonk/TIY-Chessboard/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/ericksonk/TIY-Chessboard/pulls/5/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/ericksonk/TIY-Chessboard/statuses/63aa23c30a46ad1d8742cbaf7558edb808767a99"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 23,
+        "additions": 695,
+        "deletions": 237,
+        "changed_files": 6
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:32:34Z"
+  },
+  {
+    "id": "3209062780",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 43317539,
+      "name": "ericksonk/TIY-GitHub",
+      "url": "https://api.github.com/repos/ericksonk/TIY-GitHub"
+    },
+    "payload": {
+      "push_id": 815950735,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.1",
+      "head": "db9b29d60351cf24616c0a1e10eb1a016d79fa95",
+      "before": "60be91c049bacc9bcd397b11e820bfe05a6c8237",
+      "commits": [
+        {
+          "sha": "db9b29d60351cf24616c0a1e10eb1a016d79fa95",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "updated version number on package.json",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ericksonk/TIY-GitHub/commits/db9b29d60351cf24616c0a1e10eb1a016d79fa95"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:32:10Z"
+  },
+  {
+    "id": "3206557039",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 42898084,
+      "name": "ericksonk/TIY-Chessboard",
+      "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 815004198,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/19--world-war-chess",
+      "head": "63aa23c30a46ad1d8742cbaf7558edb808767a99",
+      "before": "090dff137df7c1f4027e07b8a7160ea8233207a8",
+      "commits": [
+        {
+          "sha": "63aa23c30a46ad1d8742cbaf7558edb808767a99",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "added some pseudo code",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/63aa23c30a46ad1d8742cbaf7558edb808767a99"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T02:19:33Z"
+  },
+  {
+    "id": "3206380680",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 41059030,
+      "name": "TIY-Durham/2015-FALL-FEE",
+      "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/367",
+        "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/367/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/367/comments",
+        "events_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/367/events",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/367",
+        "id": 109404494,
+        "number": 367,
+        "title": "19 -- Kristine Erickson",
+        "user": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-10-01T23:29:34Z",
+        "updated_at": "2015-10-04T23:18:19Z",
+        "closed_at": null,
+        "body": "* [ ] **Yak Shaving**\r\n  * _WIP Issue_\r\n    * link to PRs in:\r\n      * [x] `USERNAME.github.io`\r\n      * [ ] `TIY-Chessboard`\r\n  * _WIP Branch_\r\n    * [x] `USERNAME.github.io:tutorial-week4`\r\n    * [ ] `TIY-Chessboard:19--world-war-chess`\r\n  * _WIP Files_\r\n    * [x] in `USERNAME.github.io:tutorial-week-4` or whatever\r\n    * [x] in `TIY-Chessboard:19--world-war-chess`\r\n      * [ ] `js/`\r\n        * [ ] `controllers.js`\r\n        * [ ] `main.js` -- in case something breaks\r\n        * [ ] `tests.js` -- Controllers are hard to test\r\n      * [ ] `index.html` -- wire 'em up!\r\n* [x] Journal, Week 4\r\n  * [x] Final draft of tutorial written!\r\n  * [x] 2 x :+1: reviews!\r\n  * [x] And you give 2 x :+1:\r\n* [ ] **World War Chess**"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/comments/145400625",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/367#issuecomment-145400625",
+        "issue_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/367",
+        "id": 145400625,
+        "user": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-10-04T23:18:18Z",
+        "updated_at": "2015-10-04T23:18:18Z",
+        "body": "World War Chess PR:\r\nhttps://github.com/ericksonk/TIY-Chessboard/pull/5"
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-04T23:18:19Z",
+    "org": {
+      "id": 13875036,
+      "login": "TIY-Durham",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TIY-Durham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13875036?"
+    }
+  },
+  {
+    "id": "3206363833",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 42898084,
+      "name": "ericksonk/TIY-Chessboard",
+      "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 814922011,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/19--world-war-chess",
+      "head": "090dff137df7c1f4027e07b8a7160ea8233207a8",
+      "before": "38978c57db3c964ef1b3096b29861be0f57571a9",
+      "commits": [
+        {
+          "sha": "40fed2f23a82183c4bc31c0a89919b4d13df5da9",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "'next' button working for view",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/40fed2f23a82183c4bc31c0a89919b4d13df5da9"
+        },
+        {
+          "sha": "090dff137df7c1f4027e07b8a7160ea8233207a8",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "'previous' button working in controller, trying to fix errors in main.js",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/090dff137df7c1f4027e07b8a7160ea8233207a8"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-04T23:00:37Z"
+  },
+  {
+    "id": "3206243911",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 42898084,
+      "name": "ericksonk/TIY-Chessboard",
+      "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 814866754,
+      "size": 3,
+      "distinct_size": 3,
+      "ref": "refs/heads/19--world-war-chess",
+      "head": "38978c57db3c964ef1b3096b29861be0f57571a9",
+      "before": "030096a694b03f1a9542dc744fef7b264e229cb2",
+      "commits": [
+        {
+          "sha": "50cb9cd12cd728432485f43c4e943373896a681d",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "'fast-forward' working, game moves to final position",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/50cb9cd12cd728432485f43c4e943373896a681d"
+        },
+        {
+          "sha": "0758f7131479c81ec485a1d12ea725b153916a11",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "trying get loop to move one piece at a time as 'next' button is clicked",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/0758f7131479c81ec485a1d12ea725b153916a11"
+        },
+        {
+          "sha": "38978c57db3c964ef1b3096b29861be0f57571a9",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "'rewind' button working for view",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ericksonk/TIY-Chessboard/commits/38978c57db3c964ef1b3096b29861be0f57571a9"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-04T20:55:06Z"
+  },
+  {
+    "id": "3205488694",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 41694165,
+      "name": "rosalsm/rosalsm.github.io",
+      "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io/issues/15",
+        "labels_url": "https://api.github.com/repos/rosalsm/rosalsm.github.io/issues/15/labels{/name}",
+        "comments_url": "https://api.github.com/repos/rosalsm/rosalsm.github.io/issues/15/comments",
+        "events_url": "https://api.github.com/repos/rosalsm/rosalsm.github.io/issues/15/events",
+        "html_url": "https://github.com/rosalsm/rosalsm.github.io/pull/15",
+        "id": 109650102,
+        "number": 15,
+        "title": "final tutorial-week-4.md",
+        "user": {
+          "login": "rosalsm",
+          "id": 14005282,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14005282?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/rosalsm",
+          "html_url": "https://github.com/rosalsm",
+          "followers_url": "https://api.github.com/users/rosalsm/followers",
+          "following_url": "https://api.github.com/users/rosalsm/following{/other_user}",
+          "gists_url": "https://api.github.com/users/rosalsm/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/rosalsm/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/rosalsm/subscriptions",
+          "organizations_url": "https://api.github.com/users/rosalsm/orgs",
+          "repos_url": "https://api.github.com/users/rosalsm/repos",
+          "events_url": "https://api.github.com/users/rosalsm/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/rosalsm/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-10-03T22:59:58Z",
+        "updated_at": "2015-10-04T04:06:29Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io/pulls/15",
+          "html_url": "https://github.com/rosalsm/rosalsm.github.io/pull/15",
+          "diff_url": "https://github.com/rosalsm/rosalsm.github.io/pull/15.diff",
+          "patch_url": "https://github.com/rosalsm/rosalsm.github.io/pull/15.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io/issues/comments/145315873",
+        "html_url": "https://github.com/rosalsm/rosalsm.github.io/pull/15#issuecomment-145315873",
+        "issue_url": "https://api.github.com/repos/rosalsm/rosalsm.github.io/issues/15",
+        "id": 145315873,
+        "user": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-10-04T04:06:29Z",
+        "updated_at": "2015-10-04T04:06:29Z",
+        "body": "Very informative and helped clarify some things for me, good work :+1: "
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-04T04:06:30Z"
+  },
+  {
+    "id": "3205484966",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 41694172,
+      "name": "s4dmw/s4dmw.github.io",
+      "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/19",
+        "labels_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/19/labels{/name}",
+        "comments_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/19/comments",
+        "events_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/19/events",
+        "html_url": "https://github.com/s4dmw/s4dmw.github.io/pull/19",
+        "id": 109644563,
+        "number": 19,
+        "title": "Update creative-tutorial-title-week-4.md",
+        "user": {
+          "login": "s4dmw",
+          "id": 13879097,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/s4dmw",
+          "html_url": "https://github.com/s4dmw",
+          "followers_url": "https://api.github.com/users/s4dmw/followers",
+          "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+          "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+          "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+          "repos_url": "https://api.github.com/users/s4dmw/repos",
+          "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-10-03T20:44:26Z",
+        "updated_at": "2015-10-04T04:01:48Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/pulls/19",
+          "html_url": "https://github.com/s4dmw/s4dmw.github.io/pull/19",
+          "diff_url": "https://github.com/s4dmw/s4dmw.github.io/pull/19.diff",
+          "patch_url": "https://github.com/s4dmw/s4dmw.github.io/pull/19.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/comments/145315784",
+        "html_url": "https://github.com/s4dmw/s4dmw.github.io/pull/19#issuecomment-145315784",
+        "issue_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/19",
+        "id": 145315784,
+        "user": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-10-04T04:01:48Z",
+        "updated_at": "2015-10-04T04:01:48Z",
+        "body": "Very descriptive and easy to follow, nice work :+1: "
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-04T04:01:49Z"
+  },
+  {
+    "id": "3205481730",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 41693945,
+      "name": "ericksonk/ericksonk.github.io",
+      "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io"
+    },
+    "payload": {
+      "push_id": 814520903,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/tutorial-week4",
+      "head": "69d8bca542664428b581e8e4b0c9294d181c2cda",
+      "before": "0f23f8d2311769966952bae5c759a7eb04dc4f51",
+      "commits": [
+        {
+          "sha": "69d8bca542664428b581e8e4b0c9294d181c2cda",
+          "author": {
+            "email": "ericksonk09@gmail.com",
+            "name": "Kristine Erickson"
+          },
+          "message": "Tutorial final draft",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/commits/69d8bca542664428b581e8e4b0c9294d181c2cda"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-04T03:56:38Z"
+  },
+  {
+    "id": "3205453449",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 41059030,
+      "name": "TIY-Durham/2015-FALL-FEE",
+      "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/367",
+        "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/367/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/367/comments",
+        "events_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/367/events",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/367",
+        "id": 109404494,
+        "number": 367,
+        "title": "19 -- Kristine Erickson",
+        "user": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-10-01T23:29:34Z",
+        "updated_at": "2015-10-04T03:06:08Z",
+        "closed_at": null,
+        "body": "* [ ] **Yak Shaving**\r\n  * _WIP Issue_\r\n    * link to PRs in:\r\n      * [ ] `USERNAME.github.io`\r\n      * [x] `TIY-Chessboard`\r\n  * _WIP Branch_\r\n    * [x] `USERNAME.github.io:tutorial-week4`\r\n    * [x] `TIY-Chessboard:19--world-war-chess`\r\n  * _WIP Files_\r\n    * [ ] in `USERNAME.github.io:tutorial-week-4` or whatever\r\n    * [x] in `TIY-Chessboard:19--world-war-chess`\r\n      * [ ] `js/`\r\n        * [ ] `controllers.js`\r\n        * [ ] `main.js` -- in case something breaks\r\n        * [ ] `tests.js` -- Controllers are hard to test\r\n      * [x] `index.html` -- wire 'em up!\r\n* [ ] Journal, Week 4\r\n  * [ ] Final draft of tutorial written!\r\n  * [ ] 2 x :+1: reviews!\r\n  * [ ] And you give 2 x :+1:\r\n* [ ] **World War Chess**"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/comments/145313452",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/367#issuecomment-145313452",
+        "issue_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/367",
+        "id": 145313452,
+        "user": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-10-04T03:06:08Z",
+        "updated_at": "2015-10-04T03:06:08Z",
+        "body": "Tutorial PR:\r\nhttps://github.com/ericksonk/ericksonk.github.io/pull/14"
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-04T03:06:08Z",
+    "org": {
+      "id": 13875036,
+      "login": "TIY-Durham",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TIY-Durham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13875036?"
+    }
+  },
+  {
+    "id": "3205453233",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 14016182,
+      "login": "ericksonk",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericksonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14016182?"
+    },
+    "repo": {
+      "id": 41693945,
+      "name": "ericksonk/ericksonk.github.io",
+      "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 14,
+      "pull_request": {
+        "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/14",
+        "id": 46718131,
+        "html_url": "https://github.com/ericksonk/ericksonk.github.io/pull/14",
+        "diff_url": "https://github.com/ericksonk/ericksonk.github.io/pull/14.diff",
+        "patch_url": "https://github.com/ericksonk/ericksonk.github.io/pull/14.patch",
+        "issue_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/14",
+        "number": 14,
+        "state": "open",
+        "locked": false,
+        "title": "Tutorial Week 4",
+        "user": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-10-04T03:05:46Z",
+        "updated_at": "2015-10-04T03:05:46Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/14/commits",
+        "review_comments_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/14/comments",
+        "review_comment_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/14/comments",
+        "statuses_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/statuses/0f23f8d2311769966952bae5c759a7eb04dc4f51",
+        "head": {
+          "label": "ericksonk:tutorial-week4",
+          "ref": "tutorial-week4",
+          "sha": "0f23f8d2311769966952bae5c759a7eb04dc4f51",
+          "user": {
+            "login": "ericksonk",
+            "id": 14016182,
+            "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericksonk",
+            "html_url": "https://github.com/ericksonk",
+            "followers_url": "https://api.github.com/users/ericksonk/followers",
+            "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+            "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+            "repos_url": "https://api.github.com/users/ericksonk/repos",
+            "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693945,
+            "name": "ericksonk.github.io",
+            "full_name": "ericksonk/ericksonk.github.io",
+            "owner": {
+              "login": "ericksonk",
+              "id": 14016182,
+              "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/ericksonk",
+              "html_url": "https://github.com/ericksonk",
+              "followers_url": "https://api.github.com/users/ericksonk/followers",
+              "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+              "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+              "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+              "repos_url": "https://api.github.com/users/ericksonk/repos",
+              "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/ericksonk/ericksonk.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io",
+            "forks_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/forks",
+            "keys_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/events",
+            "assignees_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/merges",
+            "archive_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:48:10Z",
+            "updated_at": "2015-08-31T19:10:40Z",
+            "pushed_at": "2015-10-04T03:05:16Z",
+            "git_url": "git://github.com/ericksonk/ericksonk.github.io.git",
+            "ssh_url": "git@github.com:ericksonk/ericksonk.github.io.git",
+            "clone_url": "https://github.com/ericksonk/ericksonk.github.io.git",
+            "svn_url": "https://github.com/ericksonk/ericksonk.github.io",
+            "homepage": null,
+            "size": 296,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "ericksonk:master",
+          "ref": "master",
+          "sha": "51187123989c5bbb18b861ed4468abad1d1e9f9e",
+          "user": {
+            "login": "ericksonk",
+            "id": 14016182,
+            "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ericksonk",
+            "html_url": "https://github.com/ericksonk",
+            "followers_url": "https://api.github.com/users/ericksonk/followers",
+            "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+            "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+            "repos_url": "https://api.github.com/users/ericksonk/repos",
+            "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693945,
+            "name": "ericksonk.github.io",
+            "full_name": "ericksonk/ericksonk.github.io",
+            "owner": {
+              "login": "ericksonk",
+              "id": 14016182,
+              "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/ericksonk",
+              "html_url": "https://github.com/ericksonk",
+              "followers_url": "https://api.github.com/users/ericksonk/followers",
+              "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+              "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+              "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+              "repos_url": "https://api.github.com/users/ericksonk/repos",
+              "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/ericksonk/ericksonk.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io",
+            "forks_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/forks",
+            "keys_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/events",
+            "assignees_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/merges",
+            "archive_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:48:10Z",
+            "updated_at": "2015-08-31T19:10:40Z",
+            "pushed_at": "2015-10-04T03:05:16Z",
+            "git_url": "git://github.com/ericksonk/ericksonk.github.io.git",
+            "ssh_url": "git@github.com:ericksonk/ericksonk.github.io.git",
+            "clone_url": "https://github.com/ericksonk/ericksonk.github.io.git",
+            "svn_url": "https://github.com/ericksonk/ericksonk.github.io",
+            "homepage": null,
+            "size": 296,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/14"
+          },
+          "html": {
+            "href": "https://github.com/ericksonk/ericksonk.github.io/pull/14"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/14"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/14/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/14/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/14/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/ericksonk/ericksonk.github.io/statuses/0f23f8d2311769966952bae5c759a7eb04dc4f51"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 0,
+        "deletions": 2,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-04T03:05:46Z"
+  }
+]
