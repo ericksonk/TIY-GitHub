@@ -54,10 +54,24 @@ body {
 
         .tabs {
           list-style: none;
+          border-bottom: solid 1px;
 
-            li .active {
-              color: yellow;
+            li {
+              display:inline-block;
+              line-height:44px;
+
+              a {
+                margin: 10px;
+              }
+
             }
+
+              li .active {
+                color: yellow;
+                border-top: solid 1px;
+                border-right: solid 1px;
+                border-left: solid 1px;
+              }
         }
     }
 }
