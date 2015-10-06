@@ -2,9 +2,23 @@
 //   console.log(arguments);
 // });
 
+/*
+sources: https://api.jquery.com/jQuery.getJSON/
+*/
+
 $.getJSON("../apis/github/users/ericksonk.json", function (data) {
-  console.log(arguments);
+  $('.fullName').html('<h1>' + data.name);
+  // $.each(data, function(key, val) {
+  //
+  // });
 });
+
+// var items = [];
+// $.each( data, function(key, val) {
+//   items.push("<li class") //push into array
+// });
+// $(.smallColumn).html(); // get the html contents of the 1st matched element
+// $(.smallColumn).append(); // insert content to the end of each matched element
 
 // http://www.jacklmoore.com/notes/jquery-tabs/
 // $('ul.tabs').on('click', function(){ // selects each element inside the ul tag
