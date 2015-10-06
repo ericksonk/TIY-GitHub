@@ -18,6 +18,12 @@
     "tests"
   ],
   "dependencies": {
+    "jquery": "1.*",
+    "lodash": "~3.10.1",
+    "modernizr": "~3.1.0",
+    "normalize-css": "normalize.css#~3.0.3"
+  },
+  "resolutions": {
     "jquery": "1.*"
   }
 }
