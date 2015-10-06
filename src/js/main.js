@@ -8,7 +8,25 @@ jQuery.ajax('../apis/github/users/octocat.json').then(function(data){
 //   $active.addClass('active');
 // });
 
-$('a').on('click', function() {
+$('ul.tabs li a').on('click', function(e) {
   $('a').removeClass('active');
   $(this).addClass('active');
+
+    if ($('#tab2')) {
+      $('section#tab2').show();
+      $('section#tab3').hide();
+      $('section#tab1').hide();
+    }
+
+    if ($('#tab1 active')) {
+      $('section#tab1').show();
+      $('section#tab2').hide();
+      $('section#tab3').hide();
+    }
+
+    if ($('#tab3 active')) {
+      $('section#tab3').show();
+      $('section#tab2').hide();
+      $('section#tab1').hide();
+    }
 });
