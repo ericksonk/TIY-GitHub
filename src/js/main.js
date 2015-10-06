@@ -7,6 +7,7 @@ sources: https://api.jquery.com/jQuery.getJSON/
 */
 
 $.getJSON("../apis/github/users/ericksonk.json", function (data) {
+  // http://www.tutorialspoint.com/jquery/ajax-jquery-getjson.htm
   $('.fullName').html('<h1>' + data.name);
   // $.each(data, function(key, val) {
   //
