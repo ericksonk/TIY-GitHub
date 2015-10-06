@@ -2,15 +2,20 @@
 //   console.log(arguments);
 // });
 
-/*
-sources: https://api.jquery.com/jQuery.getJSON/
-*/
-
+// source : https://api.jquery.com/jQuery.getJSON/
 $.getJSON("../apis/github/users/ericksonk.json", function (data) {
-  // http://www.tutorialspoint.com/jquery/ajax-jquery-getjson.htm
-  $('.fullName').html('<h1>' + data.name);
+  // source: http://www.tutorialspoint.com/jquery/ajax-jquery-getjson.htm
+  $('.fullName').html('<h1>' + data.name); // get the html contents of the 1st matched element
+  $('.userName').html('<p>' + data.login);
+  $('.company').html('<li>' + data.company);
+  $('.location').html('<li>' + data.location);
+  $('.email').html('<a>' + data.email);
+  $('.url').html('<a>' + data.blog);
+  $('.created').html('<li>' + data.created_at);
+
+//Trying to make below function work but moving forward for now...
   // $.each(data, function(key, val) {
-  //
+  //   $('.' + key).text(val.value);
   // });
 });
 
