@@ -20,34 +20,74 @@
               <img class="avatar" src="https://avatars.githubusercontent.com/u/583231?v=3"/>
             </a>
             <h1 class="fullName">
-              The Octocat
+              {{name}}
             </h1>
-            <p class="userName">octocat</p>
+            <p class="userName">{{login}}</p>
             <ul>
               <li class="info">
                 <span class="octicon octicon-organization"></span>
-                GitHub
+                {{company}}
               </li>
               <li class="info">
                 <span class="octicon octicon-location"></span>
-                San Francisco
+                {{location}}
               </li>
               <li class="info">
                 <span class="octicon octicon-mail"></span>
-                <a class="email" href="mailto:octocat@github.com">octocat@github.com</a>
+                <a class="email" href="mailto:octocat@github.com">{{email}}</a>
               </li>
               <li class="info">
                 <span class="octicon octicon-link"></span>
-                <a class="url" href="http://www.github.com/blog">http://www.github.com/blog</a>
+                <a class="url" href="http://www.github.com/blog">{{blog}}</a>
               </li>
               <li class="info">
                 <span class="octicon octicon-clock"></span>
-                Joined on Jan 25, 2011
+                {{created_at}}
               </li>
             </ul>
           </section>
           <section class="bigColumn">
-            <p> tabs and tab-content go here! </p>
+            <nav>
+              <ul class="tabs">
+
+                  <li>
+                    <a href="#tab1"><span class="octicon octicon-diff-added"> Contributions</span></a>
+                  </li>
+
+
+                  <li>
+                    <a href="#tab2" class="active"><span class="octicon octicon-repo"> Repositories</span></a>
+                  </li>
+
+
+                  <li>
+                    <a href="#tab3"><span class="octicon octicon-rss"> Public Activity</span></a>
+                  </li>
+                </ul>
+              <section class="searchBar">
+                <input type="search" name="searchRepo"/>
+                <button>Search</button>
+              </section>
+              <section class="panel" id="tab1">
+                <p>first tab content</p>
+              </section>
+              <section class="panel" id="tab2">
+                <section class="spoonKnife">
+                  <h2>Spoon-Knife</h2>
+                  <p>This repo is for demonstration purposes only.</p>
+                </section>
+                <section class="oc-gh-io">
+                  <h2>octocat.github.io</h2>
+                </section>
+                <section class="helloWorld">
+                  <h2>Hello-World</h2>
+                  <p>This is your first repo!</p>
+                </section>
+              </section>
+              <section class="panel" id="tab3">
+                <p>third tab content</p>
+              </section>
+            </nav>
           </section>
         </section>
 

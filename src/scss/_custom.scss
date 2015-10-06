@@ -48,8 +48,35 @@ body {
     .bigColumn {
       width: 75%;
       height: 800px;
-      background: blue;
+      border: solid blue;
       padding: 0 10px 0 10px;
       float: right;
+
+        .tabs {
+          list-style: none;
+          border-bottom: solid 1px;
+
+            li {
+              display:inline-block;
+              line-height:44px;
+
+              a {
+                margin: 10px;
+                padding: 4px;
+              }
+
+            }
+
+              li .active {
+                color: yellow;
+                border-bottom: 0px;
+              }
+        }
     }
 }
+
+// ul.tabs.active {
+//   border-top: solid black 1px;
+//   border-right: solid black 1px;
+//   border-left: solid black 1px;
+// }
