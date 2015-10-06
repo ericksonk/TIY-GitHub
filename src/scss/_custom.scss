@@ -54,7 +54,10 @@ body {
 
         .tabs {
           list-style: none;
-          // display: inline-block;
+
+            li .active {
+              color: yellow;
+            }
         }
     }
 }
