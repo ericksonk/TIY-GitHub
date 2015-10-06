@@ -1,4 +1,8 @@
-jQuery.ajax('../apis/github/users/octocat.json').then(function(data){
+// jQuery.ajax('../apis/github/users/octocat.json').then(function(data){
+//   console.log(arguments);
+// });
+
+$.getJSON("../apis/github/users/ericksonk.json", function (data) {
   console.log(arguments);
 });
 
