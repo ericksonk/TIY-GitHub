@@ -13,25 +13,26 @@ $('ul.tabs li a').on('click', function(e) {
   $(this).addClass('active');
 
     var viewTab = $(this).attr('href');
-    $('.panel').hide();
-    $('.panel').hide();
-    $('viewTab').show();
-
-    // if ($('#tab2')) {
-    //   $('section#tab2').show();
-    //   $('section#tab3').hide();
-    //   $('section#tab1').hide();
-    // }
-    //
-    // if ($('#tab1 active')) {
-    //   $('section#tab1').show();
-    //   $('section#tab2').hide();
-    //   $('section#tab3').hide();
-    // }
-    //
-    // if ($('#tab3 active')) {
-    //   $('section#tab3').show();
-    //   $('section#tab2').hide();
-    //   $('section#tab1').hide();
-    // }
+      $('#tab1').hide();
+      $('#tab3').hide();
+      $('viewTab').show();
+        e.preventDefault();
 });
+
+// if ($('#tab2' && 'active')) {
+//   $('section#tab2').show();
+//   $('section#tab3').hide();
+//   $('section#tab1').hide();
+// }
+//
+// if ($('#tab1' && 'active')) {
+//   $('section#tab1').show();
+//   $('section#tab2').hide();
+//   $('section#tab3').hide();
+// }
+//
+// if ($('#tab3' && 'active')) {
+//   $('section#tab3').show();
+//   $('section#tab2').hide();
+//   $('section#tab1').hide();
+// }
