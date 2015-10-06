@@ -62,16 +62,21 @@ body {
 
               a {
                 margin: 10px;
+                padding: 4px;
               }
 
             }
 
               li .active {
                 color: yellow;
-                border-top: solid 1px;
-                border-right: solid 1px;
-                border-left: solid 1px;
+                border-bottom: 0px;
               }
         }
     }
 }
+
+// ul.tabs.active {
+//   border-top: solid black 1px;
+//   border-right: solid black 1px;
+//   border-left: solid black 1px;
+// }
