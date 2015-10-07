@@ -1,6 +1,42 @@
-jQuery.ajax('../apis/github/users/octocat.json').then(function(data){
-  console.log(arguments);
+// jQuery.ajax('../apis/github/users/octocat.json').then(function(data){
+//   console.log(arguments);
+// });
+
+// // source : https://api.jquery.com/jQuery.getJSON/
+// $.getJSON("../apis/github/users/ericksonk.json", function (data) {
+//   // source: http://www.tutorialspoint.com/jquery/ajax-jquery-getjson.htm
+//   $('.fullName').html('<h1>' + data.name); // get the html contents of the 1st matched element
+//   $('.userName').html('<p>' + data.login);
+//   $('.company').html('<li>' + data.company);
+//   $('.location').html('<li>' + data.location);
+//   $('.email').html('<a>' + data.email);
+//   $('.url').html('<a>' + data.blog);
+//   $('.created').html('<li>' + data.created_at);
+
+
+
+//Trying to make below function work but moving forward for now...
+  // $.each(data, function(key, val) {
+  //   $('.' + key).text(val.value);
+  // });
+// });
+
+$.getJSON("../apis/github/users/ericksonk.json", function (data) {
+  var tempHTML = $('#profileData');
+  _.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
+    var compiled = _.template('#tLogin {{name}}');
+    console.log(compiled);
 });
+
+
+
+
+// var items = [];
+// $.each( data, function(key, val) {
+//   items.push("<li class") //push into array
+// });
+// $(.smallColumn).html(); // get the html contents of the 1st matched element
+// $(.smallColumn).append(); // insert content to the end of each matched element
 
 // http://www.jacklmoore.com/notes/jquery-tabs/
 // $('ul.tabs').on('click', function(){ // selects each element inside the ul tag
