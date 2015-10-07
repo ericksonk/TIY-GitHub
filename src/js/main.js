@@ -25,7 +25,7 @@ $.getJSON("../apis/github/users/ericksonk.json", function (data) {
   var tempHTML = $('#profileData');
   _.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
     var compiled = _.template('#tLogin {{name}}');
-    compiled({'name': 'Kristine'});
+    console.log(compiled);
 });
 
 
