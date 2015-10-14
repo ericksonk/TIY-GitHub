@@ -19,13 +19,13 @@ $.getJSON("../apis/github/users/ericksonk.json", function (data) {
   // });
 });
 
-// CLASS NOTES 
+// CLASS NOTES
 
-_.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
-var text = $(select elements to get {{name}}).html();
-var tpl = _.template(text);
-tpl ({name: "Kristine Erickson"});
-var replacement = tpl ({name: "Kristine Erickson"});
+// _.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
+// var text = $(select elements to get {{name}}).html();
+// var tpl = _.template(text);
+// tpl ({name: "Kristine Erickson"});
+// var replacement = tpl ({name: "Kristine Erickson"});
 
 // $.getJSON("../apis/github/users/ericksonk.json", function (data) {
 //   var tempHTML = $('#profileData');
@@ -40,7 +40,7 @@ var replacement = tpl ({name: "Kristine Erickson"});
 //     email: "octocat@github.com"
 //   }
 
-$('ulclass').append(profileTpl(data))
+// $('ulclass').append(profileTpl(data))
 
 // END CLASS NOTES
 
