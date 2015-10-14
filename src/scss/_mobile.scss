@@ -4,8 +4,16 @@
 
     .smallColumn {
       width: 100%;
+      display: table;
+      content: " ";
+      clear: both;
+
       h1, p, ul {
         position: absolute;
+        float: right;
+        display: table;
+        content: "";
+        clear: both;
       }
       img {
         width: 130px;
