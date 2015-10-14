@@ -4,10 +4,21 @@
 
     .smallColumn {
       width: 100%;
+      h1, p, ul {
+        position: absolute;
+      }
+      img {
+        width: 130px;
+        height: 120px;
+      }
     }
 
     .bigColumn {
       width: 100%;
+
+      span.octicon-rss, span.octicon-diff-added {
+        display: none;
+      }
     }
   }
 }
