@@ -1,5 +1,13 @@
 @media screen and (max-width: 736px) {
   .main {
     display: block;
+
+    .smallColumn {
+      width: 100%;
+    }
+
+    .bigColumn {
+      width: 100%;
+    }
   }
 }
