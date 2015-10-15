@@ -8,6 +8,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 
+  .mobileTabs {
+    display: none;
+  }
+
     .smallColumn {
       width: 20%;
       height: 600px;
@@ -48,7 +52,6 @@ body {
     .bigColumn {
       width: 75%;
       height: 800px;
-      border: solid blue;
       padding: 0 10px 0 10px;
       float: right;
 
@@ -71,6 +74,34 @@ body {
                 color: yellow;
                 border-bottom: 0px;
               }
+        }
+
+        #tab2 {
+          padding-top: 10px;
+
+          .spoonKnife {
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
+          }
+          .oc-gh-io {
+            border-bottom: 1px solid gray;
+          }
+          .helloWorld {
+            border-bottom: 1px solid gray;
+          }
+          p {
+            font-size: 12px;
+            color: gray;
+          }
+          a {
+            text-decoration: none;
+          }
+          span.octicon {
+            padding-right: 10px;
+          }
+          // span.star-count {
+          //   float: right;
+          // }
         }
     }
 }

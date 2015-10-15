@@ -1,0 +1,35 @@
+@media screen and (max-width: 736px) {
+  .main {
+    display: block;
+
+    .mobileTabs{
+      display: inherit;
+    }
+    .smallColumn {
+      width: 100%;
+      display: table;
+      content: " ";
+      clear: both;
+
+      h1, p, ul {
+        position: absolute;
+        float: right;
+        display: table;
+        content: "";
+        clear: both;
+      }
+      img {
+        width: 130px;
+        height: 120px;
+      }
+    }
+
+    .bigColumn {
+      width: 100%;
+
+      .tabs, #tab1, #tab3, .searchBar {
+        display: none;
+      }
+    }
+  }
+}
