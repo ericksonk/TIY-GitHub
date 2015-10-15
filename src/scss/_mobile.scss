@@ -2,6 +2,9 @@
   .main {
     display: block;
 
+    .mobileTabs{
+      display: inherit;
+    }
     .smallColumn {
       width: 100%;
       display: table;
@@ -24,7 +27,7 @@
     .bigColumn {
       width: 100%;
 
-      span.octicon-rss, span.octicon-diff-added {
+      .tabs, #tab1, #tab3, .searchBar {
         display: none;
       }
     }
