@@ -105,7 +105,9 @@ body {
         }
     }
 }
-
+*, *:after, *:before {
+  box-sizing: border-box;
+}
 // ul.tabs.active {
 //   border-top: solid black 1px;
 //   border-right: solid black 1px;
