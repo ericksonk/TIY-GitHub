@@ -74,6 +74,16 @@ body {
           }
           .nav-buttons {
             float: right;
+            .follow-bttn {
+              background: #72CD53;
+              border: solid; // flattens button
+              border-radius: 3px;
+              color: #FFF;
+
+              span {
+                padding-right: 5px;
+              }
+            }
           }
         }
 
