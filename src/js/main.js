@@ -58,7 +58,7 @@ $.getJSON("../apis/github/users/ericksonk.json", function (data) {
 //   $active.addClass('active');
 // });
 
-$('ul.tabs li a').on('click', function(e) {
+$('nav.tabs a').on('click', function(e) {
   $('a').removeClass('active');
   $(this).addClass('active');
 
