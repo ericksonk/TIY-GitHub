@@ -56,24 +56,21 @@ body {
       float: right;
 
         .tabs {
-          list-style: none;
-          border-bottom: solid 1px;
+          border-bottom: solid 1px gray;
+          padding: 0 2em;
 
-            li {
-              display:inline-block;
-              line-height:44px;
+          a [href] {
+            margin: 10px;
+            position: relative;
+            display: inline-block;
+            bottom: -1px;
+            padding: 1ex .5em;
 
-              a {
-                margin: 10px;
-                padding: 4px;
-              }
-
+            &.active {
+              border: 1px solid gray;
+              border-bottom-color: white;
             }
-
-              li .active {
-                color: yellow;
-                border-bottom: 0px;
-              }
+          }
         }
 
         #tab2 {
