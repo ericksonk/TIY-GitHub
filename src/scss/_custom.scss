@@ -25,8 +25,6 @@ body {
         img {
           position: relative;
           width: 100%;
-          // width: 230px;
-          // height: 230px;
           border-radius: 5px;
         }
 
@@ -58,26 +56,24 @@ body {
       width: 100% * (2/3);
       padding: 0 10px 0 10px;
       display: inline-block;
-      // float: right;
-      // display: table;
-      // content: ' ';
-      // clear: both;
 
-        .tabs {
+        nav.tabs {
           border-bottom: solid 1px gray;
-          padding: 0 2em;
+          padding: 0.5em 2em;
 
-          a [href] {
-            margin: 10px;
+          a[href] {
             position: relative;
             display: inline-block;
-            bottom: -1px;
+            bottom: -8px;
             padding: 1ex .5em;
 
             &.active {
               border: 1px solid gray;
               border-bottom-color: white;
             }
+          }
+          .nav-buttons {
+            float: right;
           }
         }
 
