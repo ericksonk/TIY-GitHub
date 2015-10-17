@@ -57,15 +57,22 @@ $.getJSON("../apis/github/users/ericksonk.json", function (data) {
 //   var $active = $(this).find('a'); // `this` refers to containig element (ul.tabs); finds all `a` elements
 //   $active.addClass('active');
 // });
-
-$('nav.tabs a').on('click', function(e) {
-  $('a').removeClass('active');
-  $(this).addClass('active');
-
+$(document).ready(function(){
+  $('nav.tabs a').on('click', function(e) {
     var viewTab = $(this).attr('href');
-      $(viewTab).toggle();
-      // $('#tab1').hide();
-      // $('#tab3').hide();
-      // $('viewTab').show();
-      //   e.preventDefault();
+    $('a').removeClass('active');
+    $('.panel').removeClass('active');
+    $(this).addClass('active');
+    $('#'+viewTab).addClass('active');
+
+      // var viewTab = $(this).attr('href');
+      //   $('#tab1').hide();
+      //   $('#tab3').hide();
+      //   $('viewTab').show();
+  });
 });
+
+
+// $('nav.tabs a').on('click', function(){
+//
+// });
