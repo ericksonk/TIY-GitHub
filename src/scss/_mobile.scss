@@ -21,11 +21,18 @@
       width: 100%;
       overflow: hidden;
       float: left;
+      display: table;
+      content: "";
+      clear: both;
 
-      h1, p, ul {
-        // position: absolute;
-        // float: right;
+      ul {
+        border-bottom: none;
       }
+
+      .userName {
+        border-bottom: none;
+      }
+
       img {
         width: 40%;
         float: left;
