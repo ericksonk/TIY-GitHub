@@ -68,7 +68,7 @@
             <section class="panel" id="tab1">
               <p>first tab content</p>
             </section>
-            <section class="panel active" id="tab2" ng-repeat="repo in repos">
+            <section class="panel active" id="tab2" ng-repeat="repo in repos | orderBy: '-updated_at'">
               <section class="spoonKnife">
                 <span class="octicon octicon-repo"></span><a href="#{{repo.html_url}}">{{repo.name}}</a>
                 <p>{{repo.description}}<p>
