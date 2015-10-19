@@ -52,8 +52,13 @@
     .bigColumn {
       width: 100%;
 
-      .tabs, #tab1, #tab3, .searchBar {
+      .tabs a, span, a.active, #tab1, #tab3, .searchBar {
         display: none;
+        border: none;
+      }
+
+      div.nav-buttons .follow-bttn {
+        width: 100%;
       }
     }
   }
