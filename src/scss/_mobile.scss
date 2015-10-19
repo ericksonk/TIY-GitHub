@@ -9,18 +9,27 @@
       display: inherit;
       border-bottom: solid 1px gray;
       padding: 0.5em 2em;
+
+      a[href] {
+        position: relative;
+        display: inline-block;
+        bottom: -8px;
+        padding: 1ex .5em;
+      }
     }
     .smallColumn {
       width: 100%;
+      overflow: hidden;
+      float: left;
 
       h1, p, ul {
         // position: absolute;
         // float: right;
       }
-      // img {
-      //   width: 130px;
-      //   height: 120px;
-      // }
+      img {
+        width: 40%;
+        float: left;
+      }
     }
 
     .bigColumn {
