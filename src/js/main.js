@@ -61,11 +61,18 @@ $(document).ready(function(){
   $('#tab1').hide(); // hides panel 1 on load
   $('#tab3').hide(); // hides panel 3 on load
 
-  $('nav.tabs a').on('click', function(e) {
-    $('a').removeClass('active');
-    $(this).addClass('active');
+  $('.tabs > a').on('click', function(){
+    $(this).addClass('active').siblings().removeClass('active');
 
+    var panelId = $(this).attr('href');
+      $(panelId).addClass('active').siblings.removeClass('active');
   });
+
+  // $('nav.tabs a').on('click', function(e) {
+  //   $('a').removeClass('active');
+  //   $(this).addClass('active');
+  //
+  // });
 });
 
       // var viewTab = $(this).attr('href');
