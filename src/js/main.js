@@ -1,12 +1,19 @@
 ;(function(){ // START IIFE
   angular.module("tiy-github", [ ])
+
     .run(function($http, $rootScope){
-      // $rootScope.name = "Kristine Erickson";
       $http.get('/apis/github/users/ericksonk.json')
         .then(function(response){
           $rootScope.user = response.data;
         });
-    })
+    }) // END RUN FUNCTION (user info)
+
+    .run(function($http, $rootScope){
+      $http.get('/apis/github/users/ericksonk/repos.json')
+        .then(function(response){
+          
+        });
+    }) // END RUN FUNCTION (repo info)
   ; // END MODULE
 })(); // END IIFE
 
