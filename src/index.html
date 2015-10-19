@@ -68,13 +68,14 @@
             <section class="panel" id="tab1">
               <p>first tab content</p>
             </section>
-            <section class="panel active" id="tab2">
+            <section class="panel active" id="tab2" ng-repeat="repo in repos">
               <section class="spoonKnife">
                 <span class="octicon octicon-repo"></span><a href="#{{repo.html_url}}">{{repo.name}}</a>
                 <p>{{repo.description}}<p>
+                <p>{{repo.updated_at}}</p>
                 <a href="{{repo.starred_url}}" class="starred"><span class="star-count">{{repo.stargazers_count}}</span></a>
               </section>
-              <section class="oc-gh-io">
+              <!-- <section class="oc-gh-io">
                 <span class="octicon octicon-repo"></span><a href="#{{html_url}}">{{name}}</a>
                 <p>{{description}}<p>
                 <a href="{{starred_url}}" class="starred"><span class="star-count">{{stargazers_count}}</span></a>
@@ -83,7 +84,7 @@
                 <span class="octicon octicon-repo"></span><a href="#{{html_url}}">{{name}}</a>
                 <p>{{description}}<p>
                 <a href="{{starred_url}}" class="starred"><span class="star-count">{{stargazers_count}}</span></a>
-              </section>
+              </section> -->
             </section>
             <section class="panel" id="tab3">
               <p>third tab content</p>
