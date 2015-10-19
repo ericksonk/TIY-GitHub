@@ -8,13 +8,18 @@
     .mobileTabs{
       display: inherit;
       border-bottom: solid 1px gray;
-      padding: 0.5em 2em;
+      // padding: 0.5em 2em;
+      padding: 1ex 1em;
 
       a[href] {
         position: relative;
         display: inline-block;
         bottom: -8px;
         padding: 1ex .5em;
+      }
+
+      &.active {
+        border-bottom: 1px solid #FFF;
       }
     }
     .smallColumn {
