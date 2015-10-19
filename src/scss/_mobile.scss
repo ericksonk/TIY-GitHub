@@ -1,34 +1,69 @@
 @media screen and (max-width: 736px) {
   .main {
     display: block;
+    display: table;
+    content: " ";
+    clear: both;
 
     .mobileTabs{
       display: inherit;
+      border-bottom: solid 1px gray;
+      // padding: 0.5em 2em;
+      padding: 1ex 1em;
+
+      a[href] {
+        position: relative;
+        display: inline-block;
+        bottom: -8px;
+        padding: 1ex .5em;
+      }
+
+      &.active {
+        border-bottom: 1px solid #FFF;
+      }
     }
     .smallColumn {
       width: 100%;
-      display: table;
-      content: " ";
-      clear: both;
+      overflow: hidden;
+      float: left;
+      // padding-left: 5%;
 
-      h1, p, ul {
-        position: absolute;
-        float: right;
-        display: table;
-        content: "";
-        clear: both;
+      .fullName {
+        // display: table;
+        // content: "";
+        // clear: both;
       }
+
+      ul {
+        border-bottom: none;
+
+        li.created {
+          display: none;
+        }
+      }
+
+      .userName {
+        border-bottom: none;
+        width: auto;
+        height: auto;
+      }
+
       img {
-        width: 130px;
-        height: 120px;
+        width: 40%;
+        float: left;
       }
     }
 
     .bigColumn {
       width: 100%;
 
-      .tabs, #tab1, #tab3, .searchBar {
+      .tabs, a, span, a.active, #tab1, #tab3, .searchBar {
         display: none;
+        border: none;
+      }
+
+      div.nav-buttons .follow-bttn {
+        width: 100%;
       }
     }
   }
