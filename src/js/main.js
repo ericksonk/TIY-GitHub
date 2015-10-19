@@ -11,7 +11,7 @@
     .run(function($http, $rootScope){
       $http.get('/apis/github/users/ericksonk/repos.json')
         .then(function(response){
-          
+          $rootScope.repo = response.data[4];
         });
     }) // END RUN FUNCTION (repo info)
   ; // END MODULE
