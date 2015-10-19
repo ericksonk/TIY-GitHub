@@ -25,29 +25,29 @@
               <img class="avatar" src="https://avatars.githubusercontent.com/u/583231?v=3"/>
             </a>
             <h1 class="fullName">
-              {{name}}
+              {{user.name}}
             </h1>
-            <p class="userName">{{login}}</p>
+            <p class="userName">{{user.login}}</p>
             <ul>
               <li class="info company">
                 <span class="octicon octicon-organization"></span>
-                {{company}}
+                {{user.company}}
               </li>
               <li class="info location">
                 <span class="octicon octicon-location"></span>
-                {{location}}
+                {{user.location}}
               </li>
               <li class="info">
                 <span class="octicon octicon-mail"></span>
-                <a class="email" href="mailto:octocat@github.com">{{email}}</a>
+                <a class="email" href="mailto:octocat@github.com">{{user.email}}</a>
               </li>
               <li class="info">
                 <span class="octicon octicon-link"></span>
-                <a class="url" href="http://www.github.com/blog">{{blog}}</a>
+                <a class="url" href="http://www.github.com/blog">{{user.blog}}</a>
               </li>
               <li class="info created">
                 <span class="octicon octicon-clock"></span>
-                {{created_at}}
+                {{user.created_at}}
               </li>
             </ul>
           </section>

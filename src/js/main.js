@@ -4,7 +4,7 @@
       // $rootScope.name = "Kristine Erickson";
       $http.get('/apis/github/users/ericksonk.json')
         .then(function(response){
-          $rootScope.name = response.data.name;
+          $rootScope.user = response.data;
         });
     })
   ; // END MODULE
