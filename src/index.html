@@ -15,6 +15,7 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
+      <main class="container">
         <section class="main">
           <nav class="mobileTabs">
             <a href="#mobileAbout">About</a>
@@ -51,51 +52,42 @@
             </ul>
           </section>
           <section class="bigColumn">
-            <nav>
-              <ul class="tabs">
-
-                  <li>
-                    <a href="#tab1"><span class="octicon octicon-diff-added"> Contributions</span></a>
-                  </li>
-
-
-                  <li>
-                    <a href="#tab2" class="active"><span class="octicon octicon-repo"> Repositories</span></a>
-                  </li>
-
-
-                  <li>
-                    <a href="#tab3"><span class="octicon octicon-rss"> Public Activity</span></a>
-                  </li>
-                </ul>
-              <section class="searchBar">
-                <input type="search" name="searchRepo"/>
-                <button>Search</button>
-              </section>
-              <section class="panel" id="tab1">
-                <p>first tab content</p>
-              </section>
-              <section class="panel" id="tab2">
-                <section class="spoonKnife">
-                  <span class="octicon octicon-repo"></span><a href="#{{html_url}}">{{name}}</a>
-                  <p>{{description}}<p>
-                  <span class="star-count">{{stargazers_count}}</span>
-                </section>
-                <section class="oc-gh-io">
-                  <span class="octicon octicon-repo"></span><a href="#{{html_url}}">{{name}}</a>
-                  <p>{{description}}<p>
-                  <span class="star-count">{{stargazers_count}}</span>
-                </section>
-                <section class="helloWorld">
-                  <span class="octicon octicon-repo"></span><a href="#{{html_url}}">{{name}}</a>
-                  <p>{{description}}<p>
-                  <span class="star-count">{{stargazers_count}}</span>
-                </section>
-              </section>
-              <section class="panel" id="tab3">
-                <p>third tab content</p>
-              </section>
+            <nav class="tabs">
+              <a href="#tab1"><span class="octicon octicon-diff-added"> Contributions</span></a>
+              <a href="#tab2" class="active"><span class="octicon octicon-repo"> Repositories</span></a>
+              <a href="#tab3"><span class="octicon octicon-rss"> Public Activity</span></a>
+              <div class="nav-buttons">
+                <button class="follow-bttn"><span class="octicon octicon-person"></span>Follow</button>
+                <button class="user-actions"><span class="octicon octicon-stop"></span></button>
+              </div>
             </nav>
+            <section class="searchBar">
+              <input type="search" name="searchRepo"/>
+              <button>Search</button>
+            </section>
+            <section class="panel" id="tab1">
+              <p>first tab content</p>
+            </section>
+            <section class="panel active" id="tab2">
+              <section class="spoonKnife">
+                <span class="octicon octicon-repo"></span><a href="#{{html_url}}">{{name}}</a>
+                <p>{{description}}<p>
+                <a href="{{starred_url}}" class="starred"><span class="star-count">{{stargazers_count}}</span></a>
+              </section>
+              <section class="oc-gh-io">
+                <span class="octicon octicon-repo"></span><a href="#{{html_url}}">{{name}}</a>
+                <p>{{description}}<p>
+                <a href="{{starred_url}}" class="starred"><span class="star-count">{{stargazers_count}}</span></a>
+              </section>
+              <section class="helloWorld">
+                <span class="octicon octicon-repo"></span><a href="#{{html_url}}">{{name}}</a>
+                <p>{{description}}<p>
+                <a href="{{starred_url}}" class="starred"><span class="star-count">{{stargazers_count}}</span></a>
+              </section>
+            </section>
+            <section class="panel" id="tab3">
+              <p>third tab content</p>
+            </section>
           </section>
         </section>
 
@@ -115,6 +107,7 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+      </main>
     </body>
 </html>
 
