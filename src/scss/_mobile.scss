@@ -1,27 +1,26 @@
 @media screen and (max-width: 736px) {
   .main {
     display: block;
+    display: table;
+    content: " ";
+    clear: both;
 
     .mobileTabs{
       display: inherit;
+      border-bottom: solid 1px gray;
+      padding: 0.5em 2em;
     }
     .smallColumn {
       width: 100%;
-      display: table;
-      content: " ";
-      clear: both;
 
       h1, p, ul {
-        position: absolute;
-        float: right;
-        display: table;
-        content: "";
-        clear: both;
+        // position: absolute;
+        // float: right;
       }
-      img {
-        width: 130px;
-        height: 120px;
-      }
+      // img {
+      //   width: 130px;
+      //   height: 120px;
+      // }
     }
 
     .bigColumn {
