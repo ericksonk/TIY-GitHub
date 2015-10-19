@@ -65,14 +65,10 @@ $(document).ready(function(){
     $('a').removeClass('active');
     $(this).addClass('active');
 
-      var viewTab = $(this).attr('href');
-        $('#tab1').hide();
-        $('#tab3').hide();
-        viewTab.show();
   });
 });
 
-
-// $('nav.tabs a').on('click', function(){
-//
-// });
+      // var viewTab = $(this).attr('href');
+      //   $('#tab1').hide();
+      //   $('#tab3').hide();
+      //   viewTab.show();
