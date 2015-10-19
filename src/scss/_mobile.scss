@@ -21,16 +21,26 @@
       width: 100%;
       overflow: hidden;
       float: left;
-      display: table;
-      content: "";
-      clear: both;
+      // padding-left: 5%;
+
+      .fullName {
+        // display: table;
+        // content: "";
+        // clear: both;
+      }
 
       ul {
         border-bottom: none;
+
+        li.created {
+          display: none;
+        }
       }
 
       .userName {
         border-bottom: none;
+        width: auto;
+        height: auto;
       }
 
       img {
