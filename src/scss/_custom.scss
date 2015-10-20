@@ -94,14 +94,11 @@ body {
           padding-top: 10px;
 
           .spoonKnife {
-            border-top: 1px solid gray;
             border-bottom: 1px solid gray;
-          }
-          .oc-gh-io {
-            border-bottom: 1px solid gray;
-          }
-          .helloWorld {
-            border-bottom: 1px solid gray;
+            a.starred, a.forked {
+              float: right;
+              color: gray;
+            }
           }
           p {
             font-size: 12px;

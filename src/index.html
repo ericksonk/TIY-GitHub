@@ -73,7 +73,8 @@
                 <span class="octicon octicon-repo"></span><a href="#{{repo.html_url}}">{{repo.name}}</a>
                 <p>{{repo.description}}<p>
                 <p>{{repo.updated_at}}</p>
-                <a href="{{repo.starred_url}}" class="starred"><span class="star-count">{{repo.stargazers_count}}</span></a>
+                <a href="{{repo.starred_url}}" class="starred"><span class="octicon octicon-star"></span><span class="star-count">{{repo.stargazers_count}}</span></a>
+                <a href="{{repo.forks_url}}" class="forked"><span class="octicon octicon-git-branch"></span><span class="fork-count">{{repo.forks_count}}</span></a>
               </section>
               <!-- <section class="oc-gh-io">
                 <span class="octicon octicon-repo"></span><a href="#{{html_url}}">{{name}}</a>
