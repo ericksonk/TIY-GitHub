@@ -87,8 +87,15 @@ $(document).ready(function(){
     $(this).addClass('active').siblings().removeClass('active');
 
     var panelId = $(this).attr('href');
-      $(panelId).addClass('active').siblings.removeClass('active');
+    $(panelId).addClass('active').siblings().removeClass('active');
   });
+
+  // $('.tabs > a').on('click', function(){
+  //   $(this).addClass('active').siblings().removeClass('active');
+  //
+  //   var panelId = $(this).attr('href');
+  //     $(panelId).addClass('active').siblings.removeClass('active');
+  // });
 
   // $('nav.tabs a').on('click', function(e) {
   //   $('a').removeClass('active');
