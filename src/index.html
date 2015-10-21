@@ -22,7 +22,7 @@
             <a href="#mobileReop">Repositories</a>
           </nav>
           <section class="smallColumn">
-              <img class="avatar" src="https://avatars.githubusercontent.com/u/583231?v=3"/>
+              <img class="avatar" src="{{user.avatar_url}}"/>
             </a>
             <h1 class="fullName">
               {{user.name}}
@@ -94,9 +94,11 @@
         </section>
 
         <form action="" method="post">
-          <fieldset class="enter-comment">
-            
-          </fieldset>
+          <img class="avatar" src="{{avatar_url}}"/>
+          <label>Write</label>
+          <textarea class="enter-comment">
+          </textarea>
+          <button class="comment-bttn">Comment</button>
         </form>
 
         <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
