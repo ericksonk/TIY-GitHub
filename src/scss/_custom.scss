@@ -115,6 +115,23 @@ body {
           // }
         }
     }
+    .comments {
+      img.thumbnail {
+        width: 5%;
+        margin-right: 10px;
+      }
+      div.comment-display {
+        div.comment-view {
+          border: 1px solid gray;
+          width: 80%;
+          display: inline-block;
+        }
+      }
+
+      form {
+
+      }
+    }
 }
 *, *:after, *:before {
   box-sizing: border-box;
