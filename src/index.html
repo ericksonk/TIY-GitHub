@@ -98,9 +98,10 @@
                 <div class="comment-view">
                   <a href="{{html_url}}">login</a>
                   <p>commented <a href="{{issue_url}}">created_at</a></p>
-                  <p>body</p>
+                  <p class="comment-body">body</p>
                 </div>
           </div>
+          <div class="comment-box">
             <img class="thumbnail" src="{{user.avatar_url}}"/>
             <form action="" method="post">
               <label>Write</label>
@@ -109,6 +110,7 @@
               <button class="close-bttn">Close issue</button>
               <button class="comment-bttn">Comment</button>
             </form>
+          </div>
           </section>
 
         </section>

@@ -125,11 +125,34 @@ body {
           border: 1px solid gray;
           width: 80%;
           display: inline-block;
+          margin-bottom: 10px;
+
+          a, p {
+            display: inline-block;
+          }
+          p.comment-body {
+            display: block;
+          }
         }
       }
-
-      form {
-
+      div.comment-box {
+        img {
+          margin-right: 10px;
+        }
+        form {
+          width: 80%;
+          display: inline-block;
+          border: 1px solid gray;
+          textarea {
+            width: 90%;
+          }
+          label {
+            display: block;
+          }
+          button {
+            float: right;
+          }
+        }
       }
     }
 }
