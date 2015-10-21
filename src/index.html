@@ -93,13 +93,22 @@
           </section>
         </section>
 
-        <form action="" method="post">
-          <img class="avatar" src="{{avatar_url}}"/>
-          <label>Write</label>
-          <textarea class="enter-comment">
-          </textarea>
-          <button class="comment-bttn">Comment</button>
-        </form>
+        <section class="comments">
+          <div class="display-comment">
+            <img class="avatar" src="{{user.avatar_url}}"/>
+            <a href="{{html_url}}">login</a>
+            <p>commented <a href="{{issue_url}}">created_at</a></p>
+            <p>body</p>
+          </div>
+          <form action="" method="post">
+            <img class="avatar" src="{{user.avatar_url}}"/>
+            <label>Write</label>
+            <textarea class="enter-comment">
+            </textarea>
+            <button class="close-bttn">Close issue</button>
+            <button class="comment-bttn">Comment</button>
+          </form>
+        </section>
 
         <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script> -->
