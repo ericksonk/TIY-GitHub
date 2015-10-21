@@ -14,6 +14,10 @@
           $rootScope.repos = response.data;
         });
     }) // END RUN FUNCTION (repo info)
+
+    .run(function($http, $rootScope){
+
+    })// END RUN FUNCTION (comment section)
   ; // END MODULE
 })(); // END IIFE
 
