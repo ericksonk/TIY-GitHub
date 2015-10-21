@@ -93,12 +93,12 @@
           </section>
 
           <section class="comments">
-            <div class="comment-display">
+            <div class="comment-display" ng-repeat="comment in comments">
               <img class="thumbnail" src="{{user.avatar_url}}"/>
                 <div class="comment-view">
-                  <a href="{{html_url}}">{{login}}</a>
-                  <p>commented <a href="{{issue_url}}">{{created_at}}</a></p>
-                  <p class="comment-body">{{body}}</p>
+                  <a href="{{html_url}}">{{comment.login}}</a>
+                  <p>commented <a href="{{comment.issue_url}}">{{comment.created_at}}</a></p>
+                  <p class="comment-body">{{comment.body}}</p>
                 </div>
           </div>
           <div class="comment-box">

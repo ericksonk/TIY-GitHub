@@ -16,7 +16,10 @@
     }) // END RUN FUNCTION (repo info)
 
     .run(function($http, $rootScope){
-
+      $http.get('/apis/github/users/ericksonk/comments.json')
+        .then(function(response){
+          $rootScope.comments = response.data;
+        });
     })// END RUN FUNCTION (comment section)
   ; // END MODULE
 })(); // END IIFE
