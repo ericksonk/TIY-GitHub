@@ -98,14 +98,14 @@
                 <div class="comment-view">
                   <a href="{{html_url}}">{{comment.login}}</a>
                   <p>commented <a href="{{comment.issue_url}}">{{comment.created_at}}</a></p>
-                  <p class="comment-body">{{comment.body}}</p>
+                  <p class="comment-body">{{commentCtrl.comment.body}}</p>
                 </div>
           </div>
           <div class="comment-box">
             <img class="thumbnail" src="{{user.avatar_url}}"/>
-            <form action="" method="post">
+            <form action="" method="post" ng-controller="CommentController as commentCtrl">
               <label>Write</label>
-              <textarea class="enter-comment" ng-model="comment.body">
+              <textarea class="enter-comment" ng-model="commentCtrl.comment.body">
               </textarea>
               <button class="close-bttn">Close issue</button>
               <button class="comment-bttn">Comment</button>

@@ -24,7 +24,11 @@
   ; // END MODULE
 })(); // END IIFE
 
-
+;(function(){ // START COMMENT IIFE
+  app.controller("CommentController", function(){
+    this.review = {};
+  });
+})(); // END COMMENT IIFE
 
 // jQuery.ajax('../apis/github/users/octocat.json').then(function(data){
 //   console.log(arguments);
