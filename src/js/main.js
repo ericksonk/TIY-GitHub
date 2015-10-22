@@ -21,14 +21,26 @@
           $rootScope.comments = response.data;
         });
     })// END RUN FUNCTION (comment section)
+
+    .controller("CommentController", function(){
+      this.review = {};
+
+      this.addComment = function() {
+        comments.push(this.comment);
+      };
+    }) // END CONTROLLER
   ; // END MODULE
 })(); // END IIFE
 
-;(function(){ // START COMMENT IIFE
-  app.controller("CommentController", function(){
-    this.review = {};
-  });
-})(); // END COMMENT IIFE
+// ;(function(){ // START COMMENT IIFE
+//   .controller("CommentController", function(){
+//     this.review = {};
+//
+//     this.addReview = function() {
+//       product.reviews.push(this.comment);
+//     };
+//   });
+// })(); // END COMMENT IIFE
 
 // jQuery.ajax('../apis/github/users/octocat.json').then(function(data){
 //   console.log(arguments);
