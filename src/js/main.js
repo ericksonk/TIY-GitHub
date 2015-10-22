@@ -22,25 +22,21 @@
         });
     })// END RUN FUNCTION (comment section)
 
-    .run(function($http, $rootScope){
-      $http.post('https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/507')
-        .controller("CommentController", function(){
-          this.comment = {};
+    .controller("CommentController", function(){
+      this.comment = {};
 
-          this.addComment = function(response) {
-            response.comments.push(this.comment);
-            // this.comment = {}; // resets form
-          };
-        }); // END CONTROLLER
+      this.addComment = function(response) {
+        response.comments.push(this.comment);
+        // this.comment = {}; // resets form
+      };
+    }) // END CONTROLLER
+
+    .run(function($http, $rootScope){
+      $http.post('/apis/github/users/ericksonk/comments.json')
+        .then(function(response){
+
+      });
     })
-    // .controller("CommentController", function(){
-    //   this.comment = {};
-    //
-    //   this.addComment = function(response) {
-    //     response.comments.push(this.comment);
-    //     // this.comment = {}; // resets form
-    //   };
-    //}) // END CONTROLLER
   ; // END MODULE
 })(); // END IIFE
 
