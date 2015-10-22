@@ -1,23 +1,76 @@
+;(function(){ // START IIFE
+  angular.module("tiy-github", [ ])
+
+    .run(function($http, $rootScope){
+      $http.get('/apis/github/users/ericksonk.json')
+        .then(function(response){
+          $rootScope.user = response.data;
+        });
+    }) // END RUN FUNCTION (user info)
+
+    .run(function($http, $rootScope){
+      $http.get('/apis/github/users/ericksonk/repos.json')
+        .then(function(response){
+          $rootScope.repos = response.data;
+        });
+    }) // END RUN FUNCTION (repo info)
+
+    .run(function($http, $rootScope){
+      $http.get('/apis/github/users/ericksonk/comments.json')
+        .then(function(response){
+          $rootScope.comments = response.data;
+        });
+    })// END RUN FUNCTION (comment section)
+
+    .controller("CommentController", function(){
+      this.comment = {};
+
+      this.addComment = function(response) {
+        response.comments.push(this.comment);
+        // this.comment = {}; // resets form
+      };
+    }) // END CONTROLLER
+
+    .run(function($http, $rootScope){
+      $http.post('/apis/github/users/ericksonk/comments.json')
+        .then(function(response){
+
+      });
+    })
+  ; // END MODULE
+})(); // END IIFE
+
+// ;(function(){ // START COMMENT IIFE
+//   .controller("CommentController", function(){
+//     this.review = {};
+//
+//     this.addReview = function() {
+//       product.reviews.push(this.comment);
+//     };
+//   });
+// })(); // END COMMENT IIFE
+
 // jQuery.ajax('../apis/github/users/octocat.json').then(function(data){
 //   console.log(arguments);
 // });
 
+// AJAX THINGS
 // source : https://api.jquery.com/jQuery.getJSON/
-$.getJSON("../apis/github/users/ericksonk.json", function (data) {
-  // source: http://www.tutorialspoint.com/jquery/ajax-jquery-getjson.htm
-  $('.fullName').html('<h1>' + data.name); // get the html contents of the 1st matched element
-  $('.userName').html('<p>' + data.login);
-  $('.company').html('<li>' + data.company);
-  $('.location').html('<li>' + data.location);
-  $('.email').html('<a>' + data.email);
-  $('.url').html('<a>' + data.blog);
-  $('.created').html('<li>' + data.created_at);
+// $.getJSON("../apis/github/users/ericksonk.json", function (data) {
+//   // source: http://www.tutorialspoint.com/jquery/ajax-jquery-getjson.htm
+//   $('.fullName').html('<h1>' + data.name); // get the html contents of the 1st matched element
+//   $('.userName').html('<p>' + data.login);
+//   $('.company').html('<li>' + data.company);
+//   $('.location').html('<li>' + data.location);
+//   $('.email').html('<a>' + data.email);
+//   $('.url').html('<a>' + data.blog);
+//   $('.created').html('<li>' + data.created_at);
 
 //Trying to make below function work but moving forward for now...
   // $.each(data, function(key, val) {
   //   $('.' + key).text(val.value);
   // });
-});
+// });
 
 // CLASS NOTES
 
@@ -65,8 +118,15 @@ $(document).ready(function(){
     $(this).addClass('active').siblings().removeClass('active');
 
     var panelId = $(this).attr('href');
-      $(panelId).addClass('active').siblings.removeClass('active');
+    $(panelId).addClass('active').siblings().removeClass('active');
   });
+
+  // $('.tabs > a').on('click', function(){
+  //   $(this).addClass('active').siblings().removeClass('active');
+  //
+  //   var panelId = $(this).attr('href');
+  //     $(panelId).addClass('active').siblings.removeClass('active');
+  // });
 
   // $('nav.tabs a').on('click', function(e) {
   //   $('a').removeClass('active');

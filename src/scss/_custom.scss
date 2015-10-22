@@ -94,14 +94,11 @@ body {
           padding-top: 10px;
 
           .spoonKnife {
-            border-top: 1px solid gray;
             border-bottom: 1px solid gray;
-          }
-          .oc-gh-io {
-            border-bottom: 1px solid gray;
-          }
-          .helloWorld {
-            border-bottom: 1px solid gray;
+            a.starred, a.forked {
+              float: right;
+              color: gray;
+            }
           }
           p {
             font-size: 12px;
@@ -117,6 +114,46 @@ body {
           //   float: right;
           // }
         }
+    }
+    .comments {
+      img.thumbnail {
+        width: 5%;
+        margin-right: 10px;
+      }
+      div.comment-display {
+        div.comment-view {
+          border: 1px solid gray;
+          width: 80%;
+          display: inline-block;
+          margin-bottom: 10px;
+
+          a, p {
+            display: inline-block;
+          }
+          p.comment-body {
+            display: block;
+          }
+        }
+      }
+      div.comment-box {
+        img {
+          margin-right: 10px;
+        }
+        form {
+          width: 80%;
+          display: inline-block;
+          border: 1px solid gray;
+          textarea {
+            width: 90%;
+          }
+          label {
+            display: block;
+          }
+          button {
+            float: right;
+          }
+        }
+      }
     }
 }
 *, *:after, *:before {
